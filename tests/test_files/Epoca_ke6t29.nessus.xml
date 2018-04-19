@@ -7760,9 +7760,7 @@
                 <risk_factor>None</risk_factor>
                 <script_version>$Revision: 1.90 $</script_version>
                 <solution>n/a</solution>
-                <synopsis>This plugin displays information about the Nessus
-                    scan.
-                </synopsis>
+                <synopsis>This plugin displays information about the Nessus scan.</synopsis>
                 <plugin_output>Information about this scan :
 
                     Nessus version : 7.0.3

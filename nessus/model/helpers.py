@@ -41,6 +41,18 @@ def process_datetime_element(xml_element):
         return None
 
 
+def process_date_element(xml_element):
+    try:
+        text = xml_element.text.strip() if xml_element.text else None
+        if not text:
+            return text
+        return datetime.strptime(text, "%Y/%m/%d").date()
+    except Exception as e:
+        logging.error(xml_element.tag)
+        logging.exception(e)
+        return None
+
+
 def process_int_element(xml_element):
     try:
         if xml_element.text:
