@@ -1,0 +1,38 @@
+<IndividualPluginSelection>
+    <PluginItem>
+        <PluginId>34220</PluginId>
+        <PluginName>Netstat Portscanner (WMI)</PluginName>
+        <Family>Port scanners</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+    <PluginItem>
+        <PluginId>14274</PluginId>
+        <PluginName>Nessus SNMP Scanner</PluginName>
+        <Family>Port scanners</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+    <PluginItem>
+        <PluginId>14272</PluginId>
+        <PluginName>Netstat Portscanner (SSH)</PluginName>
+        <Family>Port scanners</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+    <PluginItem>
+        <PluginId>10180</PluginId>
+        <PluginName>Ping the remote host</PluginName>
+        <Family>Port scanners</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+    <PluginItem>
+        <PluginId>11219</PluginId>
+        <PluginName>Nessus SYN scanner</PluginName>
+        <Family>Port scanners</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+    <PluginItem>
+        <PluginId>87413</PluginId>
+        <PluginName>Host Tagging</PluginName>
+        <Family>Settings</Family>
+        <Status>enabled</Status>
+    </PluginItem>
+</IndividualPluginSelection>

@@ -1,0 +1,12 @@
+<item>
+    <pluginName>Patch Management: WSUS Server Settings
+    </pluginName>
+    <pluginId>57031</pluginId>
+    <fullName>Patch Management: WSUS Server
+        Settings[password]:WSUS Password :
+    </fullName>
+    <preferenceName>WSUS Password :</preferenceName>
+    <preferenceType>password</preferenceType>
+    <preferenceValues></preferenceValues>
+    <selectedValue></selectedValue>
+</item>

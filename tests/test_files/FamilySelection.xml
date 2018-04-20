@@ -1,0 +1,214 @@
+<FamilySelection>
+    <FamilyItem>
+        <FamilyName>MacOS X Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Incident Response</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>F5 Networks Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>DNS</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Gain a shell remotely</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Solaris Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Port scanners</FamilyName>
+        <Status>mixed</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Web Servers</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>SMTP problems</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Service detection</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>CGI abuses : XSS</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Databases</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Mandriva Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Debian Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Denial of Service</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Default Unix Accounts</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Settings</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Backdoors</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>HP-UX Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Palo Alto Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>VMware ESX Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>SCADA</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>General</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Oracle Linux Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Red Hat Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>FreeBSD Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>CGI abuses</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Windows : User management</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Netware</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Amazon Linux Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Peer-To-Peer File Sharing</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Slackware Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>SNMP</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Huawei Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Gentoo Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Fedora Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Ubuntu Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Misc.</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Virtuozzo Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>FTP</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Firewalls</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Windows : Microsoft Bulletins</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Junos Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Mobile Devices</FamilyName>
+        <Status>disabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>SuSE Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Policy Compliance</FamilyName>
+        <Status>disabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Windows</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>OracleVM Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>RPC</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>CentOS Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>CISCO</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>AIX Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+    <FamilyItem>
+        <FamilyName>Scientific Linux Local Security Checks</FamilyName>
+        <Status>enabled</Status>
+    </FamilyItem>
+</FamilySelection>

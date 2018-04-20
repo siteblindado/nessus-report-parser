@@ -1,0 +1,12 @@
+<item>
+    <pluginName>Patch Management: WSUS Server Settings
+    </pluginName>
+    <pluginId>57031</pluginId>
+    <fullName>Patch Management: WSUS Server
+        Settings[checkbox]:Verify SSL Certificate :
+    </fullName>
+    <preferenceName>Verify SSL Certificate :</preferenceName>
+    <preferenceType>checkbox</preferenceType>
+    <preferenceValues>no</preferenceValues>
+    <selectedValue>no</selectedValue>
+</item>
