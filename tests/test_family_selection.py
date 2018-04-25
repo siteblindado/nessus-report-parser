@@ -5,7 +5,7 @@ from lxml import etree
 from nessus.model.family_selection import FamilySelection, FamilyItem
 
 
-class TestFamilyItem(unittest.TestCase):
+class TestFamilySelection(unittest.TestCase):
     def test_well_formed_node(self):
         node = "<FamilySelection><FamilyItem>" \
                "<FamilyName>MacOS X Local Security Checks</FamilyName>" \

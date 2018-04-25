@@ -2,6 +2,8 @@ import logging
 from re import match
 from datetime import datetime
 
+from lxml import etree
+
 
 def process_nested_text_element(root, path):
     elem = root
@@ -14,7 +16,7 @@ def process_nested_text_element(root, path):
 
 def process_text_element(xml_element):
     try:
-        if xml_element.text:
+        if isinstance(xml_element, etree._Element):
             return xml_element.text.strip()
         return None
     except Exception as e:
@@ -25,6 +27,8 @@ def process_text_element(xml_element):
 
 def process_datetime_element(xml_element):
     try:
+        if not isinstance(xml_element, etree._Element):
+            return None
         text = xml_element.text.strip() if xml_element.text else None
         if not text:
             return text
@@ -43,6 +47,8 @@ def process_datetime_element(xml_element):
 
 def process_date_element(xml_element):
     try:
+        if not isinstance(xml_element, etree._Element):
+            return None
         text = xml_element.text.strip() if xml_element.text else None
         if not text:
             return text
@@ -55,6 +61,8 @@ def process_date_element(xml_element):
 
 def process_int_element(xml_element):
     try:
+        if not isinstance(xml_element, etree._Element):
+            return None
         if xml_element.text:
             return int(xml_element.text.strip())
         return None
