@@ -15,4 +15,3 @@ class FamilySelection(UserList):
                        elem.findall('FamilyItem')]
 
         return FamilySelection(assessments)
-

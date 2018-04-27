@@ -1,5 +1,5 @@
 <Report name="Epoca">
-    <ReportHost name="www.epocacosmeticos.com.br">
+    <ReportHost name="www.sitealeatorio.com.br">
         <HostProperties>
             <tag name="HOST_END">Thu Apr 12 16:40:57 2018</tag>
             <tag name="LastUnauthenticatedResults">1523562057</tag>
@@ -128,7 +128,7 @@
                 certificate
                 chain sent by the remote host :
 
-                |-Subject : CN=www.epocacosmeticos.com.br
+                |-Subject : CN=www.sitealeatorio.com.br
                 |-Not After : May 29 16:39:40 2018 GMT
             </plugin_output>
         </ReportItem>
@@ -169,7 +169,7 @@
                 the remote
                 host using the following URL :
 
-                https://www.epocacosmeticos.com.br/crossdomain.xml
+                https://www.sitealeatorio.com.br/crossdomain.xml
             </plugin_output>
         </ReportItem>
         <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
@@ -231,9 +231,9 @@
             <xref>OSVDB:238</xref>
             <plugin_output>Contents of robots.txt :
 
-                Sitemap: https://www.epocacosmeticos.com.br/sitemap.xml
+                Sitemap: https://www.sitealeatorio.com.br/sitemap.xml
                 Sitemap:
-                https://www.epocacosmeticos.com.br/XMLData/sitemap_images.xml
+                https://www.sitealeatorio.com.br/XMLData/sitemap_images.xml
 
                 # For..a visita....o.
                 User-agent: *
@@ -243,12 +243,12 @@
                 # Disallow all crawlers access to certain pages.
                 User-agent: *
                 Disallow:
-                http://hd.epocacosmeticos.com.br/2015/Campanha-Benetton/Conheca-Veneza/regulamento/regulamento-concurso-benetton.pdf
+                http://hd.sitealeatorio.com.br/2015/Campanha-Benetton/Conheca-Veneza/regulamento/regulamento-concurso-benetton.pdf
                 Disallow:
-                http://hd.epocacosmeticos.com.br/2015/magazineluiza/condominio/imagens-hotsite-v1/magazine-luiza-concurso-regulamento-fase2.pdf
+                http://hd.sitealeatorio.com.br/2015/magazineluiza/condominio/imagens-hotsite-v1/magazine-luiza-concurso-regulamento-fase2.pdf
                 Disallow:
-                http://hd.epocacosmeticos.com.br/contrato-epoca-cosmeticos-comercio-eletronico.pdf
-                Disallow:http://epocacosmeticos.vtexcommercestable.com.br/checkout/cart/add?sku=0&amp;qty=1&amp;sc=1
+                http://hd.sitealeatorio.com.br/contrato-aleatorio-comercio-eletronico.pdf
+                Disallow:http://sitealeatorio.vtexcommercestable.com.br/checkout/cart/add?sku=0&amp;qty=1&amp;sc=1
                 Disallow: /Site/Servicos.aspx
                 Disallow: /Control/
                 Disallow: /Site/TagsMaisPopulares.aspx
@@ -326,7 +326,7 @@
                 Server: nginx
                 Set-Cookie: janus_sid=d93d770e-3dca-459e-b401-cd7fd37206da;
                 expires=Sun, 15 Apr 2018 19:32:13 GMT;
-                domain=www.epocacosmeticos.com.br; path=/; samesite=lax
+                domain=www.sitealeatorio.com.br; path=/; samesite=lax
                 X-AspNetMvc-Version: 4.0
                 X-CacheServer: janus-apicache-nginx-22
                 X-Powered-by-VTEX-Janus-ApiCache: v1.3.32
@@ -400,25 +400,25 @@
                 Cosm..ticos Perfumaria | Frete Gr..tis e Beleza com
                 Descontos Incr..veis&lt;/title&gt;&lt;script type=&quot;text/javascript&quot;
                 language=&quot;javascript&quot;&gt;var jscheckoutUrl =
-                &apos;https://www.epocacosmeticos.com.br/checkout/#/cart&apos;;var
-                jscheckoutAddUrl = &apos;https://www.epocacosmeticos.com.br/checkout/cart/add&apos;;var
-                jscheckoutGiftListId = &apos;&apos;;var jsnomeSite = &apos;epocacosmeticos&apos;;var
-                jsnomeLoja = &apos;epocacosmeticos&apos;;var jssalesChannel
+                &apos;https://www.sitealeatorio.com.br/checkout/#/cart&apos;;var
+                jscheckoutAddUrl = &apos;https://www.sitealeatorio.com.br/checkout/cart/add&apos;;var
+                jscheckoutGiftListId = &apos;&apos;;var jsnomeSite = &apos;sitealeatorio&apos;;var
+                jsnomeLoja = &apos;sitealeatorio&apos;;var jssalesChannel
                 = &apos;1&apos;;var defaultStoreCurrency = &apos;R$&apos;;var
                 localeInfo = {&quot;CountryCode&quot;:&quot;BRA&quot;,&quot;CultureCode&quot;:&quot;pt-BR&quot;,&quot;CurrencyLocale&quot;:{&quot;RegionDisplayName&quot;:&quot;Brazil&quot;,&quot;RegionName&quot;:&quot;BR&quot;,&quot;RegionNativeName&quot;:&quot;Brasil&quot;,&quot;TwoLetterIsoRegionName&quot;:&quot;BR&quot;,&quot;CurrencyEnglishName&quot;:&quot;Real&quot;,&quot;CurrencyNativeName&quot;:&quot;Real&quot;,&quot;CurrencySymbol&quot;:&quot;R$&quot;,&quot;ISOCurrencySymbol&quot;:&quot;BRL&quot;,&quot;Locale&quot;:1046,&quot;Format&quot;:{&quot;CurrencyDecimalDigits&quot;:2,&quot;CurrencyDecimalSeparator&quot;:&quot;,&quot;,&quot;CurrencyGroupSeparator&quot;:&quot;.&quot;,&quot;CurrencyGroupSize&quot;:3,&quot;StartsWithCurrencySymbol&quot;:true},&quot;FlagUrl&quot;:&quot;http://www.geonames.org/flags/x/br.gif&quot;}};&lt;/script&gt;
                 &lt;script type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;vtxctx
-                = {searchTerm:&quot;&quot;,isOrder:&quot;0&quot;,isCheck:&quot;0&quot;,isCart:&quot;0&quot;,actionType:&quot;&quot;,actionValue:&quot;&quot;,login:&quot;&quot;,url:&quot;www.epocacosmeticos.com.br&quot;,transurl:&quot;www.epocacosmeticos.com.br&quot;};&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/mobile/mdetect.js?v=1.4.924.1606&quot;
+                = {searchTerm:&quot;&quot;,isOrder:&quot;0&quot;,isCheck:&quot;0&quot;,isCart:&quot;0&quot;,actionType:&quot;&quot;,actionValue:&quot;&quot;,login:&quot;&quot;,url:&quot;www.sitealeatorio.com.br&quot;,transurl:&quot;www.sitealeatorio.com.br&quot;};&lt;/script&gt;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/mobile/mdetect.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/mobile/mdetect2.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/mobile/mdetect2.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://io.vtex.com.br/front-libs/jquery/1.8.3/jquery-1.8.3.min.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.ajax.wait.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.ajax.wait.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.common.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.common.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://io.vtex.com.br/front-libs/front-i18n/0.4.1/vtex-i18n.min.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
@@ -428,7 +428,7 @@
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://io.vtex.com.br/rc/rc.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.tagmanager.helper.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.tagmanager.helper.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://io.vtex.com.br/portal-ui/1.11.8/scripts/vtex-events-all.min.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
@@ -442,11 +442,11 @@
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;script language=&quot;javascript&quot; src=&quot;https://io.vtex.com.br/portal-plugins/2.9.13/js/portal-sku-selector-with-template.min.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.cookie.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.cookie.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/jquery.pager.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/jquery.pager.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;link rel=&quot;canonical&quot; href=&quot;https://www.epocacosmeticos.com.br/&quot;
+                &lt;link rel=&quot;canonical&quot; href=&quot;https://www.sitealeatorio.com.br/&quot;
                 /&gt;&lt;/head&gt;
                 &lt;body class=&quot;home GA-Home&quot;&gt;
                 &lt;!-- Start - WebAnalyticsViewPart --&gt;
@@ -454,9 +454,9 @@
                 &lt;!-- CommerceContext.Current.VirtualFolder.Name: / --&gt;
 
                 &lt;script&gt;
-                vtex.events.addData({&quot;pageCategory&quot;:&quot;Home&quot;,&quot;pageDepartment&quot;:null,&quot;pageUrl&quot;:&quot;http://www.epocacosmeticos.com.br/&quot;,&quot;pageTitle&quot;:&quot;..poca
+                vtex.events.addData({&quot;pageCategory&quot;:&quot;Home&quot;,&quot;pageDepartment&quot;:null,&quot;pageUrl&quot;:&quot;http://www.sitealeatorio.com.br/&quot;,&quot;pageTitle&quot;:&quot;..poca
                 Cosm..ticos Perfumaria | Frete Gr..tis e Beleza com
-                Descontos Incr..veis&quot;,&quot;skuStockOutFromShelf&quot;:[&quot;21434&quot;],&quot;skuStockOutFromProductDetail&quot;:[],&quot;shelfProductIds&quot;:[&quot;3008&quot;,&quot;14503&quot;,&quot;12936&quot;,&quot;20495&quot;,&quot;5876&quot;,&quot;16811&quot;,&quot;2546&quot;,&quot;347&quot;],&quot;accountName&quot;:&quot;epocacosmeticos&quot;,&quot;pageFacets&quot;:[]});
+                Descontos Incr..veis&quot;,&quot;skuStockOutFromShelf&quot;:[&quot;21434&quot;],&quot;skuStockOutFromProductDetail&quot;:[],&quot;shelfProductIds&quot;:[&quot;3008&quot;,&quot;14503&quot;,&quot;12936&quot;,&quot;20495&quot;,&quot;5876&quot;,&quot;16811&quot;,&quot;2546&quot;,&quot;347&quot;],&quot;accountName&quot;:&quot;sitealeatorio&quot;,&quot;pageFacets&quot;:[]});
                 &lt;/script&gt;
 
                 &lt;script&gt;
@@ -499,11 +499,11 @@
                 class=&quot;phone&quot;&gt;(21) 3202-7555&lt;/span&gt;&lt;/li&gt;&lt;li
                 class=&quot;header__links--item&quot;&gt;&lt;a href=&quot;/account/orders&quot;&gt;Meus
                 pedidos&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;header__links--item&quot;&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento&quot;&gt;Atendimento&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;figure
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento&quot;&gt;Atendimento&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;figure
                 class=&quot;header__logo&quot;&gt;&lt;a href=&quot;/&quot;
                 class=&quot;header__logo--link&quot; title=&quot;..poca
                 Cosm..ticos&quot;&gt;&lt;/a&gt;&lt;/figure&gt;&lt;form
-                action=&quot;//busca.epocacosmeticos.com.br/busca&quot;
+                action=&quot;//busca.sitealeatorio.com.br/busca&quot;
                 class=&quot;header__search search nm-search-form&quot;&gt;&lt;input
                 type=&quot;search&quot; class=&quot;header__search--field
                 nm-search-input nm-search-input-3&quot; placeholder=&quot;
@@ -527,27 +527,27 @@
                 class=&quot;menu__list--link&quot;&gt;&lt;i class=&quot;icon-hamburguer&quot;&gt;&lt;/i&gt;&lt;span&gt;Ver
                 Categorias&lt;/span&gt;&lt;/a&gt;&lt;div class=&quot;submenu&quot;&gt;&lt;ul
                 class=&quot;submenu__list&quot;&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes&quot;&gt;Perfumes&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes&quot;&gt;Perfumes&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos&quot;&gt;Cabelos&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/cabelos&quot;&gt;Cabelos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/maquiagem&quot;&gt;Maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/maquiagem&quot;&gt;Maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos&quot;&gt;Dermocosm..ticos&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos&quot;&gt;Dermocosm..ticos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/tratamentos&quot;&gt;Tratamentos&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/tratamentos&quot;&gt;Tratamentos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/corpo-e-banho&quot;&gt;Corpo
+                href=&quot;https://www.sitealeatorio.com.br/corpo-e-banho&quot;&gt;Corpo
                 e Banho&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/unhas&quot;&gt;Unhas&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/unhas&quot;&gt;Unhas&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
                 class=&quot;submenu__list&quot;&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/selecao/ofertas&quot;&gt;Oba!
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/selecao/ofertas&quot;&gt;Oba!
                 Descontos&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/lancamentos&quot;&gt;Lan..amentos&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/lancamentos&quot;&gt;Lan..amentos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/ganhe-brindes&quot;&gt;Brindes&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/ganhe-brindes&quot;&gt;Brindes&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/quero-cupom&quot;&gt;Cupons
+                href=&quot;https://www.sitealeatorio.com.br/quero-cupom&quot;&gt;Cupons
                 de Desconto&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;submenu__component&quot;&gt;&lt;h3
                 class=&quot;submenu__component--title&quot;&gt;Olha s.. que
                 legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;#28906#28851&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li
@@ -555,33 +555,33 @@
                 class=&quot;menu__list--link&quot;&gt;Perfumes&lt;/a&gt;&lt;div
                 class=&quot;submenu&quot;&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfume-feminino&quot;&gt;Perfume
+                href=&quot;https://www.sitealeatorio.com.br/perfumes/perfume-feminino&quot;&gt;Perfume
                 Feminino&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfume-masculino&quot;&gt;Perfume
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/perfume-masculino&quot;&gt;Perfume
                 Masculino&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfume-unissex&quot;&gt;Perfume
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/perfume-unissex&quot;&gt;Perfume
                 Unissex&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfume-infantil&quot;&gt;Perfume
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/perfume-infantil&quot;&gt;Perfume
                 Infantil&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfume-para-o-corpo&quot;&gt;Perfume
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/perfume-para-o-corpo&quot;&gt;Perfume
                 para o Corpo&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/kits-de-perfumes&quot;&gt;Kits
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/kits-de-perfumes&quot;&gt;Kits
                 de Perfume&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;!--
                 &lt;li class=&quot;submenu__list-item&quot;&gt;
-                &lt;a class=&quot;submenu__list-link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/perfumes-para-ambiente&quot;&gt;Perfumes
+                &lt;a class=&quot;submenu__list-link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/perfumes-para-ambiente&quot;&gt;Perfumes
                 para ambientes&lt;/a&gt;
                 &lt;/li&gt; --&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/carolina-herrera&quot;&gt;Carolina
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/carolina-herrera&quot;&gt;Carolina
                 Herrera&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/perfumes/lancome&quot;&gt;Lanc..me&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/perfumes/lancome&quot;&gt;Lanc..me&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/perfumes/Dior&quot;&gt;Dior&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/perfumes/Dior&quot;&gt;Dior&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/paris-elysees&quot;&gt;Paris
+                href=&quot;https://www.sitealeatorio.com.br/paris-elysees&quot;&gt;Paris
                 Elysees&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/antonio-banderas&quot;&gt;Antonio
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/antonio-banderas&quot;&gt;Antonio
                 Banderas&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/calvin-klein&quot;&gt;Calvin
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/calvin-klein&quot;&gt;Calvin
                 Klein&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;submenu__component&quot;&gt;&lt;h3
                 class=&quot;submenu__component--title&quot;&gt;Olha s.. que
                 legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;#28243#28228&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li
@@ -589,63 +589,63 @@
                 class=&quot;menu__list--link&quot;&gt;Cabelos&lt;/a&gt;&lt;div
                 class=&quot;submenu&quot;&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/shampoo&quot;&gt;Shampoo&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/shampoo&quot;&gt;Shampoo&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/condicionador&quot;&gt;Condicionador&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/condicionador&quot;&gt;Condicionador&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/mascara%20capilar&quot;&gt;M..scara
+                href=&quot;https://www.sitealeatorio.com.br/mascara%20capilar&quot;&gt;M..scara
                 Capilar&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/cabelos/finalizador&quot;&gt;Finalizador&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/cabelos/finalizador&quot;&gt;Finalizador&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/tratamento&quot;&gt;Tratamento&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/tratamento&quot;&gt;Tratamento&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/coloracao&quot;&gt;Colora....o&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/coloracao&quot;&gt;Colora....o&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
                 class=&quot;submenu__list&quot;&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/cabelos/kits-para-cabelos&quot;&gt;Kits
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/cabelos/kits-para-cabelos&quot;&gt;Kits
                 para Cabelos&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/cabelos/cuidados-com-o-sol&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/cabelos/cuidados-com-o-sol&quot;&gt;Cuidados
                 com o Sol&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/cabelos/profissional&quot;&gt;Profissional&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/cabelos/profissional&quot;&gt;Profissional&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/progressiva&quot;&gt;Progressiva&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/progressiva&quot;&gt;Progressiva&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/cabelos/leave-in-e-creme-para-pentear&quot;&gt;Leave-in
+                href=&quot;https://www.sitealeatorio.com.br/cabelos/leave-in-e-creme-para-pentear&quot;&gt;Leave-in
                 e Creme para pentear&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/cabelos/produtos-a-seco&quot;&gt;Produtos
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/cabelos/produtos-a-seco&quot;&gt;Produtos
                 a Seco&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;submenu__component&quot;&gt;&lt;h3
                 class=&quot;submenu__component--title&quot;&gt;Olha s.. que
                 legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;#24757#28754&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li
                 class=&quot;menu__list--item&quot;&gt;&lt;a href=&quot;/maquiagem&quot;
                 class=&quot;menu__list--link&quot;&gt;Maquiagem&lt;/a&gt;&lt;div
                 class=&quot;submenu&quot;&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/olhos&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/olhos&quot;
                 class=&quot;submenu__list--link&quot;&gt;Olhos&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/labios&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/labios&quot;
                 class=&quot;submenu__list--link&quot;&gt;L..bios&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/face&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/face&quot;
                 class=&quot;submenu__list--link&quot;&gt;Face&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/primer-e-finalizador&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/primer-e-finalizador&quot;
                 class=&quot;submenu__list--link&quot;&gt;Primer e
                 Finalizador&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/maquiagem/sobrancelhas&quot;
+                href=&quot;https://www.sitealeatorio.com.br/maquiagem/sobrancelhas&quot;
                 class=&quot;submenu__list--link&quot;&gt;Sobrancelhas&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/maquiagem-bronzeadora&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/maquiagem-bronzeadora&quot;
                 class=&quot;submenu__list--link&quot;&gt;Maquiagem
                 Bronzeadora&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/maleta-de-maquiagem&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/maleta-de-maquiagem&quot;
                 class=&quot;submenu__list--link&quot;&gt;Maleta de Maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/bb-cream&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/bb-cream&quot;
                 class=&quot;submenu__list--link&quot;&gt;BB Cream&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/maquiagem/aplicadores-para-maquiagem&quot;
+                class=&quot;submenu__list--item&quot;&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/maquiagem/aplicadores-para-maquiagem&quot;
                 class=&quot;submenu__list--link&quot;&gt;Aplicadores para
                 maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/maquiagem/ferramentas-para-maquiagem&quot;
+                href=&quot;https://www.sitealeatorio.com.br/maquiagem/ferramentas-para-maquiagem&quot;
                 class=&quot;submenu__list--link&quot;&gt;Ferramentas para
                 Maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/maquiagem/remocao-da-maquiagem&quot;
+                href=&quot;https://www.sitealeatorio.com.br/maquiagem/remocao-da-maquiagem&quot;
                 class=&quot;submenu__list--link&quot;&gt;Remo....o de
                 Maquiagem&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/maquiagem/estojo-completo-e-kit-de-maquiagem&quot;
+                href=&quot;https://www.sitealeatorio.com.br/maquiagem/estojo-completo-e-kit-de-maquiagem&quot;
                 class=&quot;submenu__list--link&quot;&gt;Estojo Completo de
                 Maquiagem e Kits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div
                 class=&quot;submenu__component&quot;&gt;&lt;h3 class=&quot;submenu__component--title&quot;&gt;Olha
@@ -654,29 +654,29 @@
                 class=&quot;menu__list--link&quot;&gt;Dermocosm..ticos&lt;/a&gt;&lt;div
                 class=&quot;submenu&quot;&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/olhos&quot;&gt;Olhos&lt;/a&gt;&lt;/li&gt;&lt;li
+                href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/olhos&quot;&gt;Olhos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/face&quot;&gt;Cuidados
+                href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/face&quot;&gt;Cuidados
                 Faciais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/face/limpadores&quot;&gt;Limpeza
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/face/limpadores&quot;&gt;Limpeza
                 da Pele&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/cabelos&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/cabelos&quot;&gt;Cuidados
                 com os cabelos&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/desodorantes&quot;&gt;Desodorantes&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/desodorantes&quot;&gt;Desodorantes&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/maos&quot;&gt;M..os&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
+                href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/maos&quot;&gt;M..os&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul
                 class=&quot;submenu__list&quot;&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/pes-e-pernas&quot;&gt;P..s
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/pes-e-pernas&quot;&gt;P..s
                 e Pernas&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/corpo&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/corpo&quot;&gt;Cuidados
                 Corporais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/cuidados-com-o-sol&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/cuidados-com-o-sol&quot;&gt;Cuidados
                 com o Sol&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/cilios-e-sobrancelhas&quot;&gt;C..lios
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/cilios-e-sobrancelhas&quot;&gt;C..lios
                 e Sobrancelhas&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/nutricosmeticos&quot;&gt;Nutricosm..ticos&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/nutricosmeticos&quot;&gt;Nutricosm..ticos&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/dermocosmeticos/agua-termal&quot;&gt;..gua
+                href=&quot;https://www.sitealeatorio.com.br/dermocosmeticos/agua-termal&quot;&gt;..gua
                 Termal&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;submenu__component&quot;&gt;&lt;h3
                 class=&quot;submenu__component--title&quot;&gt;Olha s.. que
                 legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;#25450#15208&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li
@@ -684,30 +684,30 @@
                 class=&quot;menu__list--link&quot;&gt;Tratamentos&lt;/a&gt;&lt;div
                 class=&quot;submenu&quot;&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/tratamentos/face/limpadores-faciais&quot;&gt;Limpadores
+                href=&quot;https://www.sitealeatorio.com.br/tratamentos/face/limpadores-faciais&quot;&gt;Limpadores
                 Faciais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/face/tonicos-faciais&quot;&gt;T..nicos
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/face/tonicos-faciais&quot;&gt;T..nicos
                 Faciais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/face/hidratantes-faciais&quot;&gt;Hidratantes
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/face/hidratantes-faciais&quot;&gt;Hidratantes
                 Faciais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/olhos&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/olhos&quot;&gt;Cuidados
                 com a regi..o dos olhos&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/face/rejuvenescedores-faciais&quot;&gt;Rejuvenescedores
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/face/rejuvenescedores-faciais&quot;&gt;Rejuvenescedores
                 Faciais&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/labios&quot;&gt;Cuidados
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/labios&quot;&gt;Cuidados
                 com os l..bios&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;submenu__list&quot;&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/tratamentos/pescoco-e-colo&quot;&gt;Pesco..o
+                href=&quot;https://www.sitealeatorio.com.br/tratamentos/pescoco-e-colo&quot;&gt;Pesco..o
                 e Colo&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/maos&quot;&gt;M..os&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/maos&quot;&gt;M..os&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/tratamentos/cuidados-com-os-pes&quot;&gt;Cuidados
+                href=&quot;https://www.sitealeatorio.com.br/tratamentos/cuidados-com-os-pes&quot;&gt;Cuidados
                 com os p..s&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/corpo&quot;&gt;Corpo&lt;/a&gt;&lt;/li&gt;&lt;li
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/corpo&quot;&gt;Corpo&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;submenu__list--item&quot;&gt;&lt;a class=&quot;submenu__list--link&quot;
-                href=&quot;https://www.epocacosmeticos.com.br/tratamentos/cuidados-com-o-sol&quot;&gt;Cuidados
+                href=&quot;https://www.sitealeatorio.com.br/tratamentos/cuidados-com-o-sol&quot;&gt;Cuidados
                 com o Sol&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;submenu__list--item&quot;&gt;&lt;a
-                class=&quot;submenu__list--link&quot; href=&quot;https://www.epocacosmeticos.com.br/tratamentos/cilios-e-sobrancelhas&quot;&gt;C..lios
+                class=&quot;submenu__list--link&quot; href=&quot;https://www.sitealeatorio.com.br/tratamentos/cilios-e-sobrancelhas&quot;&gt;C..lios
                 e Sobrancelhas&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;submenu__component&quot;&gt;&lt;h3
                 class=&quot;submenu__component--title&quot;&gt;Olha s.. que
                 legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;#26852#26474&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li
@@ -800,7 +800,7 @@
                 s.. que legal&lt;/h3&gt;&lt;div class=&quot;submenu__component-content&quot;&gt;
                 &lt;a href=&quot;https://www.promocaojjbrasil.com.br/#como-participar&quot;
                 title=&quot;Olha que legal!&quot; class=&quot;olha-imagem&quot;&gt;
-                &lt;img src=&quot;//epocacosmeticos.vteximg.com.br/arquivos/ABRIL-BIG-PROMO-EPOCA-BAN-EMKT-600x370px.jpg?v=636590473805930000&quot;
+                &lt;img src=&quot;//sitealeatorio.vteximg.com.br/arquivos/ABRIL-BIG-PROMO-EPOCA-BAN-EMKT-600x370px.jpg?v=636590473805930000&quot;
                 width=&quot;&quot; height=&quot;200&quot; alt=&quot;Olha que
                 legal!&quot; /&gt;
                 &lt;/a&gt;
@@ -808,16 +808,16 @@
                 subtemplate header --&gt;&lt;main role=&quot;main&quot;&gt;&lt;div
                 class=&quot;u-center&quot;&gt;&lt;section class=&quot;gallery&quot;&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/selecao/destaque-1&quot;&gt;&lt;img
-                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260011/FULL-BANNER-110418-luxo.png?v=636589827615430000&quot;
-                alt=&quot;banner&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260011/FULL-BANNER-110418-luxo.png?v=636589827615430000&quot;
+                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260011/FULL-BANNER-110418-luxo.png?v=636589827615430000&quot;
+                alt=&quot;banner&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260011/FULL-BANNER-110418-luxo.png?v=636589827615430000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/selecao/destaque-2&quot;&gt;&lt;img
-                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260013/FULL-BANNER-110418-baratinhos.png?v=636589830232200000&quot;
-                alt=&quot;secundaria-baratinhos&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260013/FULL-BANNER-110418-baratinhos.png?v=636589830232200000&quot;
+                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260013/FULL-BANNER-110418-baratinhos.png?v=636589830232200000&quot;
+                alt=&quot;secundaria-baratinhos&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260013/FULL-BANNER-110418-baratinhos.png?v=636589830232200000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/selecao/acao-3&quot;&gt;&lt;img
-                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260014/FULL-BANNER-110418-amostras.png?v=636589832427670000&quot;
-                alt=&quot;Secundaria-amostras-10/04&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260014/FULL-BANNER-110418-amostras.png?v=636589832427670000&quot;
+                width=&quot;1240&quot; height=&quot;360&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260014/FULL-BANNER-110418-amostras.png?v=636589832427670000&quot;
+                alt=&quot;Secundaria-amostras-10/04&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260014/FULL-BANNER-110418-amostras.png?v=636589832427670000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/section&gt;&lt;section
                 class=&quot;newsletter&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;h3
                 class=&quot;newsletter__title&quot;&gt;
@@ -830,51 +830,51 @@
                 class=&quot;coupons&quot;&gt;&lt;!--&lt;h2 class=&quot;section-title&quot;&gt;Olha
                 s.. que legal&lt;/h2&gt;--&gt;&lt;div class=&quot;coupon__wrapper&quot;&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/selecao/trade-4&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260216/Carrossel-desk-120418-beijo-BOURJOIS.png?v=636590670651600000&quot;
-                alt=&quot;Dia do beijo&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260216/Carrossel-desk-120418-beijo-BOURJOIS.png?v=636590670651600000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260216/Carrossel-desk-120418-beijo-BOURJOIS.png?v=636590670651600000&quot;
+                alt=&quot;Dia do beijo&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260216/Carrossel-desk-120418-beijo-BOURJOIS.png?v=636590670651600000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/selecao/trade-3&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260214/Carrossel-desk-120418-beijo-givenchy.png?v=636590669759930000&quot;
-                alt=&quot;Dia do beijo&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260214/Carrossel-desk-120418-beijo-givenchy.png?v=636590669759930000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260214/Carrossel-desk-120418-beijo-givenchy.png?v=636590669759930000&quot;
+                alt=&quot;Dia do beijo&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260214/Carrossel-desk-120418-beijo-givenchy.png?v=636590669759930000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/kerastase-resistance-masque-therapiste-mascara-de-tratamento/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260262/Carrossel-home-120418-kerastase.png?v=636591232544970000&quot;
-                alt=&quot;Kerastase 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260262/Carrossel-home-120418-kerastase.png?v=636591232544970000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260262/Carrossel-home-120418-kerastase.png?v=636591232544970000&quot;
+                alt=&quot;Kerastase 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260262/Carrossel-home-120418-kerastase.png?v=636591232544970000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/jacques-bogart&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260269/Carrossel-home-120418-jacques-bogart.png?v=636591242894830000&quot;
-                alt=&quot;Jaques Borguart 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260269/Carrossel-home-120418-jacques-bogart.png?v=636591242894830000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260269/Carrossel-home-120418-jacques-bogart.png?v=636591242894830000&quot;
+                alt=&quot;Jaques Borguart 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260269/Carrossel-home-120418-jacques-bogart.png?v=636591242894830000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/joli-joli&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260264/Carrossel-home-120418-jolijoli.png?v=636591234495800000&quot;
-                alt=&quot;Joli Joli 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260264/Carrossel-home-120418-jolijoli.png?v=636591234495800000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260264/Carrossel-home-120418-jolijoli.png?v=636591234495800000&quot;
+                alt=&quot;Joli Joli 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260264/Carrossel-home-120418-jolijoli.png?v=636591234495800000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/4711&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260266/Carrossel-home-120418-4711.png?v=636591236176870000&quot;
-                alt=&quot;4711 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260266/Carrossel-home-120418-4711.png?v=636591236176870000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260266/Carrossel-home-120418-4711.png?v=636591236176870000&quot;
+                alt=&quot;4711 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260266/Carrossel-home-120418-4711.png?v=636591236176870000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/yenzah-om-kit-mascara-capilar-necessaire/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260283/Banner-centro-120418-yenzah.png?v=636591282134800000&quot;
-                alt=&quot;Shiseido 25.01&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260283/Banner-centro-120418-yenzah.png?v=636591282134800000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260283/Banner-centro-120418-yenzah.png?v=636591282134800000&quot;
+                alt=&quot;Shiseido 25.01&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260283/Banner-centro-120418-yenzah.png?v=636591282134800000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/australian-gold&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/259604/Carrossel-home-290318-australian-gold.png?v=636583517993300000&quot;
-                alt=&quot;australian gold0304&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/259604/Carrossel-home-290318-australian-gold.png?v=636583517993300000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/259604/Carrossel-home-290318-australian-gold.png?v=636583517993300000&quot;
+                alt=&quot;australian gold0304&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/259604/Carrossel-home-290318-australian-gold.png?v=636583517993300000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/la-roche-posay&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260243/Carrossel-home-050418-larocheb.png?v=636591218652570000&quot;
-                alt=&quot;LA roche 0504&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260243/Carrossel-home-050418-larocheb.png?v=636591218652570000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260243/Carrossel-home-050418-larocheb.png?v=636591218652570000&quot;
+                alt=&quot;LA roche 0504&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260243/Carrossel-home-050418-larocheb.png?v=636591218652570000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/korres&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/259603/Carrossel-home-290318-korres.png?v=636583517308300000&quot;
-                alt=&quot;korres 0504&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/259603/Carrossel-home-290318-korres.png?v=636583517308300000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/259603/Carrossel-home-290318-korres.png?v=636583517308300000&quot;
+                alt=&quot;korres 0504&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/259603/Carrossel-home-290318-korres.png?v=636583517308300000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;div
                 chaordic=&quot;top&quot;&gt;&lt;/div&gt;&lt;div class=&quot;percycle&quot;
                 data-widget=&quot;home_top&quot;&gt;&lt;/div&gt;&lt;section
                 class=&quot;shelf&quot;&gt;&lt;div class=&quot;shelf-default
                 prateleira n8colunas&quot;&gt;&lt;h2&gt;Ei, olha que legal!&lt;/h2&gt;
                 &lt;ul&gt;&lt;li layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;corpo-e-banho--sabonete-desodorante---epoca-cosmeticos&quot;&gt;
+                class=&quot;corpo-e-banho--sabonete-desodorante---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -890,23 +890,23 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/208520-280-280/fashion-up-that-girl-adesivos-para-os-seios-1.jpg?v=636010065905100000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/208520-280-280/fashion-up-that-girl-adesivos-para-os-seios-1.jpg?v=636010065905100000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;fashion-up-that-girl-adesivos-para-os-seios-1&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand that-girl&quot; href=&quot;https://www.epocacosmeticos.com.br/that-girl&quot;&gt;That
+                class=&quot;texto brand that-girl&quot; href=&quot;https://www.sitealeatorio.com.br/that-girl&quot;&gt;That
                 Girl&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;
                 itemprop=&quot;name&quot;&gt;Fashion Up That Girl - Adesivos
                 Descat..veis para os Seios&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/fashion-up-that-girl-adesivos-para-os-seios/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-0&quot;
                 data-trustvox-product-code=&quot;12936&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -926,7 +926,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_12936&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;perfumes-importados-femininos-e-masculinos---epoca-cosmeticos&quot;&gt;
+                class=&quot;perfumes-importados-femininos-e-masculinos---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -943,23 +943,23 @@
                 class=&quot;flag flag-novo&quot;&gt;Flag-NOVO&lt;/p&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/259890-280-280/stronger-with-you-she-giorgio-armani-perfume-feminino-eau-de-parfum-2.jpg?v=636588784815600000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/259890-280-280/stronger-with-you-she-giorgio-armani-perfume-feminino-eau-de-parfum-2.jpg?v=636588784815600000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;stronger-with-you-she-giorgio-armani-perfume-feminino-eau-de-parfum-2&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand giorgio-armani&quot; href=&quot;https://www.epocacosmeticos.com.br/giorgio-armani&quot;&gt;Giorgio
+                class=&quot;texto brand giorgio-armani&quot; href=&quot;https://www.sitealeatorio.com.br/giorgio-armani&quot;&gt;Giorgio
                 Armani&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;
                 itemprop=&quot;name&quot;&gt;Because it&apos;s You She
                 Giorgio Armani Perfume Feminino - Eau de Parfum&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/because-its-you-she-giorgio-armani-perfume-feminino-eau-de-parfum/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-0&quot;
                 data-trustvox-product-code=&quot;20495&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -979,7 +979,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_20495&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;perfumes-importados-femininos-e-masculinos---epoca-cosmeticos&quot;&gt;
+                class=&quot;perfumes-importados-femininos-e-masculinos---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -995,23 +995,23 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/244482-280-280/30ml.jpg?v=636464451590130000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/244482-280-280/30ml.jpg?v=636464451590130000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;30ml&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand paco-rabanne&quot; href=&quot;https://www.epocacosmeticos.com.br/paco-rabanne&quot;&gt;Paco
+                class=&quot;texto brand paco-rabanne&quot; href=&quot;https://www.sitealeatorio.com.br/paco-rabanne&quot;&gt;Paco
                 Rabanne&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;
                 itemprop=&quot;name&quot;&gt;1 Million Paco Rabanne -
                 Perfume Masculino - Eau de Toilette&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/1-million-eau-de-toilette-paco-rabanne-perfume-masculino/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-40&quot;
                 data-trustvox-product-code=&quot;2546&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1032,7 +1032,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_2546&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;produtos-para-cabelos---epoca-cosmeticos&quot;&gt;
+                class=&quot;produtos-para-cabelos---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -1048,23 +1048,23 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/168545-280-280/hairgrowth-treatment-200ml-lee-stafford.jpg?v=635187385888930000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/168545-280-280/hairgrowth-treatment-200ml-lee-stafford.jpg?v=635187385888930000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;Hair-Growth-Treatment-Lee-Stafford---Tratamento-Para-Crescimento-De-Cabelos&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand lee-stafford&quot; href=&quot;https://www.epocacosmeticos.com.br/lee-stafford&quot;&gt;Lee
+                class=&quot;texto brand lee-stafford&quot; href=&quot;https://www.sitealeatorio.com.br/lee-stafford&quot;&gt;Lee
                 Stafford&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;
                 itemprop=&quot;name&quot;&gt;Lee Stafford Hair Growth
                 Treatment - M..scara Hidratante&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/hair-growth-treatment-lee-stafford-mascara-hidratante-para-os-cabelos/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-40&quot;
                 data-trustvox-product-code=&quot;347&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1085,7 +1085,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_347&quot; style=&quot;display:none&quot;
                 class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;maquiagem---base-batons-mascaras---epoca-cosmeticos&quot;&gt;
+                class=&quot;maquiagem---base-batons-mascaras---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -1101,22 +1101,22 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/214258-280-280/colorstay-pump-combination-oily-skin-revlon-base-liquida-true-beige.jpg?v=636137823357030000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/214258-280-280/colorstay-pump-combination-oily-skin-revlon-base-liquida-true-beige.jpg?v=636137823357030000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;colorstay-pump-combination-oily-skin-revlon-base-liquida-true-beige&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand revlon&quot; href=&quot;https://www.epocacosmeticos.com.br/revlon&quot;&gt;Revlon&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;
+                class=&quot;texto brand revlon&quot; href=&quot;https://www.sitealeatorio.com.br/revlon&quot;&gt;Revlon&lt;/a&gt;&lt;/span&gt;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;
                 itemprop=&quot;name&quot;&gt;Colorstay Pump Combination/Oily
                 Skin Revlon - Base L..quida&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/colorstay-pump-combination-oily-skin-revlon-base-liquida/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-0&quot;
                 data-trustvox-product-code=&quot;14503&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1137,7 +1137,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_14503&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;dermocosmeticos-para-corpo-e-pele---epoca-cosmeticos&quot;&gt;
+                class=&quot;dermocosmeticos-para-corpo-e-pele---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -1153,22 +1153,22 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/248505-280-280/blemish-age-defense-skinceuticals-tratamento-antiacne.jpg?v=636485796778830000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/248505-280-280/blemish-age-defense-skinceuticals-tratamento-antiacne.jpg?v=636485796778830000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;blemish-age-defense-skinceuticals-tratamento-antiacne&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand skinceuticals&quot; href=&quot;https://www.epocacosmeticos.com.br/skinceuticals&quot;&gt;Skinceuticals&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;
+                class=&quot;texto brand skinceuticals&quot; href=&quot;https://www.sitealeatorio.com.br/skinceuticals&quot;&gt;Skinceuticals&lt;/a&gt;&lt;/span&gt;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;
                 itemprop=&quot;name&quot;&gt;Blemish+ Age Defense
                 SkinCeuticals - Tratamento Antiacne&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/blemish-age-defense-skinceuticals-tratamento-antiacne/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-40&quot;
                 data-trustvox-product-code=&quot;3008&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1188,7 +1188,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_3008&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;maquiagem---base-batons-mascaras---epoca-cosmeticos&quot;&gt;
+                class=&quot;maquiagem---base-batons-mascaras---aleatorio&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
 
@@ -1204,23 +1204,23 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/176684-280-280/Bahama-Mama-foto1.jpg?v=635346478959500000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/176684-280-280/Bahama-Mama-foto1.jpg?v=635346478959500000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;Bahama-Mama-foto1&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand the-balm&quot; href=&quot;https://www.epocacosmeticos.com.br/the-balm&quot;&gt;The
+                class=&quot;texto brand the-balm&quot; href=&quot;https://www.sitealeatorio.com.br/the-balm&quot;&gt;The
                 Balm&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;
                 itemprop=&quot;name&quot;&gt;Bahama Mama The Balm - P..
                 Compacto Bronzeador&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/bahama-mama-the-balm-po-compacto-bronzeador/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-0&quot;
                 data-trustvox-product-code=&quot;5876&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1241,7 +1241,7 @@
                 &lt;/li&gt;&lt;li id=&quot;helperComplement_5876&quot;
                 style=&quot;display:none&quot; class=&quot;helperComplement&quot;&gt;&lt;/li&gt;&lt;li
                 layout=&quot;f804bbc5-5fa8-4b8b-b93a-641c059b35b3&quot;
-                class=&quot;dermocosmeticos-para-corpo-e-pele---epoca-cosmeticos
+                class=&quot;dermocosmeticos-para-corpo-e-pele---aleatorio
                 last&quot;&gt;
                 &lt;!-- Classe: shelf-default prateleira --&gt;
                 &lt;!-- f804bbc5-5fa8-4b8b-b93a-641c059b35b3 --&gt;
@@ -1257,22 +1257,22 @@
                 &lt;span class=&quot;shelf-default__flags--hightlight&quot;&gt;&lt;/span&gt;
                 &lt;/span&gt;
                 &lt;figure class=&quot;shelf-default__image&quot;&gt;
-                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.epocacosmeticos.com.br/hidratante-facial-vichy-mineral-89/p&quot;&gt;
-                &lt;img src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/226618-280-280/hidratante-facial-vichy-mineral-891.jpg?v=636316499963400000&quot;
+                &lt;a class=&quot;shelf-default__image-link&quot; href=&quot;https://www.sitealeatorio.com.br/hidratante-facial-vichy-mineral-89/p&quot;&gt;
+                &lt;img src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/226618-280-280/hidratante-facial-vichy-mineral-891.jpg?v=636316499963400000&quot;
                 width=&quot;280&quot; height=&quot;280&quot; alt=&quot;hidratante-facial-vichy-mineral-891&quot;
                 id=&quot;&quot; /&gt;
                 &lt;/a&gt;
                 &lt;figcaption class=&quot;shelf-default__image--caption&quot;&gt;
                 &lt;span class=&quot;shelf-default__brand&quot;&gt;&lt;a
-                class=&quot;texto brand vichy&quot; href=&quot;https://www.epocacosmeticos.com.br/vichy&quot;&gt;Vichy&lt;/a&gt;&lt;/span&gt;
-                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.epocacosmeticos.com.br/hidratante-facial-vichy-mineral-89/p&quot;
+                class=&quot;texto brand vichy&quot; href=&quot;https://www.sitealeatorio.com.br/vichy&quot;&gt;Vichy&lt;/a&gt;&lt;/span&gt;
+                &lt;a class=&quot;shelf-default__product-name&quot; href=&quot;https://www.sitealeatorio.com.br/hidratante-facial-vichy-mineral-89/p&quot;
                 itemprop=&quot;name&quot;&gt;Hidratante Facial Vichy -
                 Min..ral 89&lt;/a&gt;
-                &lt;a href=&quot;https://www.epocacosmeticos.com.br/hidratante-facial-vichy-mineral-89/p&quot;
+                &lt;a href=&quot;https://www.sitealeatorio.com.br/hidratante-facial-vichy-mineral-89/p&quot;
                 class=&quot;shelf-default__buy-button&quot;&gt;&lt;span&gt;Comprar&lt;/span&gt;&lt;/a&gt;
                 &lt;/figcaption&gt;
                 &lt;/figure&gt;
-                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.epocacosmeticos.com.br/hidratante-facial-vichy-mineral-89/p&quot;&gt;
+                &lt;a class=&quot;shelf-default__link&quot; href=&quot;https://www.sitealeatorio.com.br/hidratante-facial-vichy-mineral-89/p&quot;&gt;
                 &lt;span class=&quot;shelf-default__rating rating-0&quot;
                 data-trustvox-product-code=&quot;16811&quot;&gt;&lt;/span&gt;
                 &lt;span class=&quot;shelf-default__price&quot; itemprop=&quot;offers&quot;
@@ -1295,20 +1295,20 @@
                 conte..do da chaordic
                 &lt;/section&gt;--&gt;&lt;section class=&quot;banners&quot;&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/nuxe&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260272/Banner-centro-120418-nuxe.png?v=636591246172270000&quot;
-                alt=&quot;Nuxe 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260272/Banner-centro-120418-nuxe.png?v=636591246172270000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260272/Banner-centro-120418-nuxe.png?v=636591246172270000&quot;
+                alt=&quot;Nuxe 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260272/Banner-centro-120418-nuxe.png?v=636591246172270000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/agua-micelar-bifasica-solucao-de-limpeza-facial-5-em-1-l-oreal-paris/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260273/Banner-centro-120418-loreal.png?v=636591249126100000&quot;
-                alt=&quot;Loreal 1204&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260273/Banner-centro-120418-loreal.png?v=636591249126100000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260273/Banner-centro-120418-loreal.png?v=636591249126100000&quot;
+                alt=&quot;Loreal 1204&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260273/Banner-centro-120418-loreal.png?v=636591249126100000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/cartier&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/259876/Banner-centro-090418-cartier.png?v=636588711934730000&quot;
-                alt=&quot;Vichy 0203&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/259876/Banner-centro-090418-cartier.png?v=636588711934730000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/259876/Banner-centro-090418-cartier.png?v=636588711934730000&quot;
+                alt=&quot;Vichy 0203&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/259876/Banner-centro-090418-cartier.png?v=636588711934730000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/marina-de-bourbon&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/259879/Banner-centro-090418-marina.png?v=636588718311330000&quot;
-                alt=&quot;Jimmy Choo 0203&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/259879/Banner-centro-090418-marina.png?v=636588718311330000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/259879/Banner-centro-090418-marina.png?v=636588718311330000&quot;
+                alt=&quot;Jimmy Choo 0203&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/259879/Banner-centro-090418-marina.png?v=636588718311330000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/section&gt;&lt;div
                 chaordic=&quot;middle&quot;&gt;&lt;/div&gt;&lt;div class=&quot;percycle&quot;
                 data-widget=&quot;home_middle&quot;&gt;&lt;/div&gt;&lt;section
@@ -1316,57 +1316,57 @@
                 class=&quot;marcas&quot;&gt;&lt;h2 class=&quot;section-title&quot;&gt;Marcas
                 em Destaque&lt;/h2&gt;&lt;div class=&quot;box-banner&quot;&gt;&lt;a
                 href=&quot;/dior&quot;&gt;&lt;img width=&quot;180&quot;
-                height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155555/Dior_carrossel.jpg?v=635175171163730000&quot;
-                alt=&quot;Dior&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155555/Dior_carrossel.jpg?v=635175171163730000&quot;
+                height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155555/Dior_carrossel.jpg?v=635175171163730000&quot;
+                alt=&quot;Dior&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155555/Dior_carrossel.jpg?v=635175171163730000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/lancome&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155695/LANCOME_carrossel.jpg?v=635175171325730000&quot;
-                alt=&quot;Lancome&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155695/LANCOME_carrossel.jpg?v=635175171325730000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155695/LANCOME_carrossel.jpg?v=635175171325730000&quot;
+                alt=&quot;Lancome&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155695/LANCOME_carrossel.jpg?v=635175171325730000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/carolina-herrera&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/242179/logo_carolina_herrera.png?v=636480103434200000&quot;
-                alt=&quot;Carolina Herrera&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/242179/logo_carolina_herrera.png?v=636480103434200000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/242179/logo_carolina_herrera.png?v=636480103434200000&quot;
+                alt=&quot;Carolina Herrera&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/242179/logo_carolina_herrera.png?v=636480103434200000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/ralph-lauren&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155983/Ralph-Lauren_carrossel.jpg?v=635175171519800000&quot;
-                alt=&quot;Ralph Lauren&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155983/Ralph-Lauren_carrossel.jpg?v=635175171519800000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155983/Ralph-Lauren_carrossel.jpg?v=635175171519800000&quot;
+                alt=&quot;Ralph Lauren&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155983/Ralph-Lauren_carrossel.jpg?v=635175171519800000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/paco-rabanne&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155969/Paco-Rabanne_carrossel.jpg?v=635175171484900000&quot;
-                alt=&quot;Paco Rabanne&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155969/Paco-Rabanne_carrossel.jpg?v=635175171484900000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155969/Paco-Rabanne_carrossel.jpg?v=635175171484900000&quot;
+                alt=&quot;Paco Rabanne&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155969/Paco-Rabanne_carrossel.jpg?v=635175171484900000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/azzaro&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155350/Azzaro_carrossel.jpg?v=635175171043800000&quot;
-                alt=&quot;Azzaro&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155350/Azzaro_carrossel.jpg?v=635175171043800000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155350/Azzaro_carrossel.jpg?v=635175171043800000&quot;
+                alt=&quot;Azzaro&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155350/Azzaro_carrossel.jpg?v=635175171043800000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/calvin-klein&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155496/Calvin-Klein_carrossel.jpg?v=635175171093430000&quot;
-                alt=&quot;Calvin Klein&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155496/Calvin-Klein_carrossel.jpg?v=635175171093430000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155496/Calvin-Klein_carrossel.jpg?v=635175171093430000&quot;
+                alt=&quot;Calvin Klein&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155496/Calvin-Klein_carrossel.jpg?v=635175171093430000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/givenchy&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/155632/givenchy_carrossel.jpg?v=635175171253500000&quot;
-                alt=&quot;Givenchy&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/155632/givenchy_carrossel.jpg?v=635175171253500000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/155632/givenchy_carrossel.jpg?v=635175171253500000&quot;
+                alt=&quot;Givenchy&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/155632/givenchy_carrossel.jpg?v=635175171253500000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/yves-saint-laurent&quot;&gt;&lt;img
-                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/156029/Yves-Saintlaurent_carrossel.jpg?v=635163195759100000&quot;
-                alt=&quot;Yves Saint Laurent&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/156029/Yves-Saintlaurent_carrossel.jpg?v=635163195759100000&quot;
+                width=&quot;180&quot; height=&quot;70&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/156029/Yves-Saintlaurent_carrossel.jpg?v=635163195759100000&quot;
+                alt=&quot;Yves Saint Laurent&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/156029/Yves-Saintlaurent_carrossel.jpg?v=635163195759100000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/section&gt;&lt;section
                 class=&quot;banners&quot;&gt;&lt;div class=&quot;box-banner&quot;&gt;&lt;a
                 href=&quot;/dermage&quot;&gt;&lt;img width=&quot;300&quot;
-                height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/254341/Banner-footer-dermage-080218-2.png?v=636537011094730000&quot;
-                alt=&quot;Eximia 0103&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/254341/Banner-footer-dermage-080218-2.png?v=636537011094730000&quot;
+                height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/254341/Banner-footer-dermage-080218-2.png?v=636537011094730000&quot;
+                alt=&quot;Eximia 0103&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/254341/Banner-footer-dermage-080218-2.png?v=636537011094730000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/serum-clarifiant-roc-clareador-facial/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260281/Banner-footer-120418-roc.png?v=636591280959700000&quot;
-                alt=&quot;Clarins 0103&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260281/Banner-footer-120418-roc.png?v=636591280959700000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260281/Banner-footer-120418-roc.png?v=636591280959700000&quot;
+                alt=&quot;Clarins 0103&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260281/Banner-footer-120418-roc.png?v=636591280959700000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/norwegian-formula-neutrogena-hidratante-corporal/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260275/Banner-footer-120418-neutrogena.png?v=636591264535300000&quot;
-                alt=&quot;Granado 0103&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260275/Banner-footer-120418-neutrogena.png?v=636591264535300000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260275/Banner-footer-120418-neutrogena.png?v=636591264535300000&quot;
+                alt=&quot;Granado 0103&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260275/Banner-footer-120418-neutrogena.png?v=636591264535300000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div
                 class=&quot;box-banner&quot;&gt;&lt;a href=&quot;/suplemento-para-cabelos-e-unhas-fqm-eximia-fortalize/p&quot;&gt;&lt;img
-                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260274/Banner-footer-120418-eximia.png?v=636591263562170000&quot;
-                alt=&quot;Granado 0103&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260274/Banner-footer-120418-eximia.png?v=636591263562170000&quot;
+                width=&quot;300&quot; height=&quot;250&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260274/Banner-footer-120418-eximia.png?v=636591263562170000&quot;
+                alt=&quot;Granado 0103&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260274/Banner-footer-120418-eximia.png?v=636591263562170000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/section&gt;&lt;!--
                 &lt;section class=&quot;chaordic&quot;&gt;
                 conte..do da chaordic
@@ -1378,8 +1378,8 @@
                 id=&quot;blog-content&quot;&gt;youtube&lt;/div&gt;&lt;/section&gt;&lt;section
                 class=&quot;banner&quot;&gt;&lt;div class=&quot;box-banner&quot;&gt;&lt;a
                 href=&quot;/selecao/trade-1&quot;&gt;&lt;img width=&quot;728&quot;
-                height=&quot;90&quot; id=&quot;ihttps://epocacosmeticos.vteximg.com.br/arquivos/ids/260088/ABRIL-BIG-PROMO-EPOCA-BAN-RDP-HOME-728x90px.jpg?v=636590397222600000&quot;
-                alt=&quot;banner&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/arquivos/ids/260088/ABRIL-BIG-PROMO-EPOCA-BAN-RDP-HOME-728x90px.jpg?v=636590397222600000&quot;
+                height=&quot;90&quot; id=&quot;ihttps://sitealeatorio.vteximg.com.br/arquivos/ids/260088/ABRIL-BIG-PROMO-EPOCA-BAN-RDP-HOME-728x90px.jpg?v=636590397222600000&quot;
+                alt=&quot;banner&quot; src=&quot;https://sitealeatorio.vteximg.com.br/arquivos/ids/260088/ABRIL-BIG-PROMO-EPOCA-BAN-RDP-HOME-728x90px.jpg?v=636590397222600000&quot;
                 complete=&quot;complete&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/section&gt;&lt;section
                 id=&quot;text-SEO&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;h4&gt;..poca
                 cosm..ticos | uma empresa do grupo Magazineluiza&lt;/h4&gt;
@@ -1442,40 +1442,40 @@
                 class=&quot;footer&quot; role=&quot;contentinfo&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;div
                 class=&quot;footer__content&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;div
                 class=&quot;footer__column&quot;&gt;&lt;ul class=&quot;footer__links&quot;&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento&quot;
                 title=&quot;Central de Atendimento ..poca Cosm..ticos&quot;&gt;Central
                 de Atendimento&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot;
                 onclick=&quot;javascript:window.open(&apos;https://tracking.totalexpress.com.br/tracking/0&apos;,
                 &apos;&apos;, &apos;width=530,height=500&apos;); void(0);&quot;
                 title=&quot;Acompanhe seu Pedido&quot;&gt;Acompanhe seu
-                Pedido&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/login?ReturnUrl=%2faccount%2forders&quot;
+                Pedido&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/login?ReturnUrl=%2faccount%2forders&quot;
                 title=&quot;Segunda via do Boleto&quot;&gt;2.. via do Boleto&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/troca-devolucao&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento/troca-devolucao&quot;
                 title=&quot;Troca e Devolu....o&quot;&gt;Troca e Devolu....o&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/privacidade-seguranca&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento/privacidade-seguranca&quot;
                 title=&quot;Privacidade e Seguran..a&quot;&gt;Privacidade e
-                Seguran..a&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/direito-de-arrependimento&quot;
+                Seguran..a&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/centralatendimento/direito-de-arrependimento&quot;
                 title=&quot;Direito de Arrependimento&quot;&gt;Direito de
-                Arrependimento&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/quero-cupom&quot;
+                Arrependimento&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/quero-cupom&quot;
                 title=&quot;Cupons de Desconto ..poca Cosm..ticos&quot;&gt;Cupons
                 de Desconto&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div
                 class=&quot;footer__column&quot;&gt;&lt;ul class=&quot;footer__links&quot;&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/penteadeira&quot;
+                href=&quot;https://www.sitealeatorio.com.br/penteadeira&quot;
                 target=&quot;_blank&quot; title=&quot;Promo....o Penteadeira
                 dos Sonhos&quot;&gt;Promo....o Penteadeira dos Sonhos&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;http://hd.epocacosmeticos.com.br/2017/venda-online-loreal-produtos-profissionais.pdf&quot;
+                href=&quot;http://hd.sitealeatorio.com.br/2017/venda-online-loreal-produtos-profissionais.pdf&quot;
                 target=&quot;_blank&quot; title=&quot;Vendas Autorizadas L&apos;Or..al&quot;&gt;Vendas
                 Autorizadas L&apos;Or..al&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/como-comprar&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento/como-comprar&quot;
                 title=&quot;Como comprar na ..poca Cosm..ticos&quot;&gt;Como
-                Comprar&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/formas-pagamento&quot;
+                Comprar&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sitealeatorio.com.br/centralatendimento/formas-pagamento&quot;
                 title=&quot;Formas de Pagamento&quot;&gt;Formas de Pagamento&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/entrega&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento/entrega&quot;
                 title=&quot;Prazo de Entrega&quot;&gt;Prazo de Entrega&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;https://www.epocacosmeticos.com.br/centralatendimento/epoca-confiavel&quot;
+                href=&quot;https://www.sitealeatorio.com.br/centralatendimento/aleatorio-confiavel&quot;
                 title=&quot;..poca Cosm..ticos .. Confi..vel&quot;&gt;..poca
                 Cosm..ticos .. Confi..vel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
-                href=&quot;http://hd.epocacosmeticos.com.br/contrato-epoca-cosmeticos-comercio-eletronico.pdf&quot;
+                href=&quot;http://hd.sitealeatorio.com.br/contrato-aleatorio-comercio-eletronico.pdf&quot;
                 title=&quot;Contrato de Venda da ..poca Cosm..ticos&quot;&gt;Contrato
                 de Venda&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div
                 class=&quot;footer__column&quot;&gt;&lt;div class=&quot;footer__payment&quot;&gt;&lt;h4
@@ -1493,15 +1493,15 @@
                 class=&quot;social__list--item facebook&quot;&gt;&lt;a href=&quot;https://www.facebook.com/EpocaCosmeticos&quot;
                 target=&quot;_blank&quot; title=&quot;Facebook&quot; class=&quot;social__list--link&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;social__list--item instagram&quot;&gt;&lt;a
-                href=&quot;https://www.instagram.com/epocacosmeticos/&quot;
+                href=&quot;https://www.instagram.com/sitealeatorio/&quot;
                 target=&quot;_blank&quot; title=&quot;Instagram&quot; class=&quot;social__list--link&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;social__list--item twitter&quot;&gt;&lt;a href=&quot;https://twitter.com/epocacosmeticos?lang=pt&quot;
+                class=&quot;social__list--item twitter&quot;&gt;&lt;a href=&quot;https://twitter.com/sitealeatorio?lang=pt&quot;
                 target=&quot;_blank&quot; title=&quot;Twitter&quot; class=&quot;social__list--link&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&lt;li
-                class=&quot;social__list--item gplus&quot;&gt;&lt;a href=&quot;https://plus.google.com/+epocacosmeticos/posts&quot;
+                class=&quot;social__list--item gplus&quot;&gt;&lt;a href=&quot;https://plus.google.com/+sitealeatorio/posts&quot;
                 target=&quot;_blank&quot; title=&quot;Google +&quot; class=&quot;social__list--link&quot;&gt;GPlus&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div
                 class=&quot;footer__stamps&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;ul&gt;&lt;li
                 class=&quot;selo-ebit&quot;&gt;&lt;a id=&quot;seloEbit&quot;
-                href=&quot;https://www.ebit.com.br/#epocacosmeticos&quot;
+                href=&quot;https://www.ebit.com.br/#sitealeatorio&quot;
                 target=&quot;_blank&quot; onclick=&quot;redir(this.href);&quot;&gt;&lt;/a&gt;&lt;script
                 type=&quot;text/javascript&quot; id=&quot;getSelo&quot; src=&quot;https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?5354&quot;&gt;&lt;/script&gt;&lt;/li&gt;&lt;li
                 class=&quot;selo-site-blindado&quot;&gt;&lt;!-- site
@@ -1510,12 +1510,12 @@
                 id=&quot;aw_use_cdn&quot; value=&quot;true&quot; /&gt;&lt;/div&gt;&lt;script
                 type=&quot;text/javascript&quot; src=&quot;//selo.siteblindado.com/aw.js&quot;&gt;&lt;/script&gt;&lt;!--
                 site blindado --&gt;&lt;/li&gt;&lt;li class=&quot;selo-pci&quot;&gt;&lt;a
-                href=&quot;https://secure.vtex.com/?an=epocacosmeticos&quot;
+                href=&quot;https://secure.vtex.com/?an=sitealeatorio&quot;
                 target=&quot;_blank&quot;&gt;&lt;img src=&quot;//io.vtex.com.br/front-libs/assets/pci/vtex-pci-100.png&quot;
                 alt=&quot;VTEX PCI Certified&quot; /&gt;&lt;/a&gt;&lt;/li&gt;&lt;li
                 class=&quot;selo-reclame-aqui&quot;&gt;&lt;!-- site reclame
                 aqui --&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.reclameaqui.com.br/selo/&quot;&gt;&lt;img
-                src=&quot;/arquivos/ra1000-epocacosmeticos.jpg?v=635521656666170000&quot;
+                src=&quot;/arquivos/ra1000-sitealeatorio.jpg?v=635521656666170000&quot;
                 alt=&quot;Reclame Aqui&quot; class=&quot;imagens_internas&quot;
                 /&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selo-adipec&quot;&gt;&lt;img
                 width=&quot;46&quot; height=&quot;46&quot; src=&quot;/arquivos/adipec.jpg?v=635440562247970000&quot;
@@ -1539,8 +1539,8 @@
                 Profissionais&quot; /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div
                 class=&quot;footer__copyright&quot;&gt;&lt;div class=&quot;container&quot;&gt;
                 &lt;p&gt;..poca Cosm..ticos Perfumaria |
-                site.sac@epocacosmeticos.com.br | [21] 3202.7555 |
-                www.epocacosmeticos.com.br Raz..o Social: Campos Floridos
+                site.sac@sitealeatorio.com.br | [21] 3202.7555 |
+                www.sitealeatorio.com.br Raz..o Social: Campos Floridos
                 Comercio de Cosmeticos Ltda | CNPJ: 01.239.313/0001-60 Rua
                 Francisco S.., 23 / 907 - Copacabana - Rio de Janeiro (n..o
                 realizamos vendas no local) O pre..o v..lido ser.. o da
@@ -1569,19 +1569,19 @@
                 {
                 &quot;@context&quot;: &quot;http://schema.org&quot;,
                 &quot;@type&quot;: &quot;WebSite&quot;,
-                &quot;url&quot;: &quot;https://www.epocacosmeticos.com.br&quot;,
+                &quot;url&quot;: &quot;https://www.sitealeatorio.com.br&quot;,
                 &quot;name&quot;: &quot;..poca Cosm..ticos e Perfumaria&quot;,
                 &quot;potentialAction&quot;: {
                 &quot;@type&quot;: &quot;SearchAction&quot;,
-                &quot;target&quot;: &quot;https://busca.epocacosmeticos.com.br/busca?q={search_term_string}&quot;,
+                &quot;target&quot;: &quot;https://busca.sitealeatorio.com.br/busca?q={search_term_string}&quot;,
                 &quot;query-input&quot;: &quot;required
                 name=search_term_string&quot;
                 }
                 } {
                 &quot;@context&quot;: &quot;http://schema.org&quot;,
                 &quot;@type&quot;: &quot;Organization&quot;,
-                &quot;url&quot;: &quot;https://www.epocacosmeticos.com.br&quot;,
-                &quot;logo&quot;: &quot;https://hd.epocacosmeticos.com.br/institucional/LOGO-EPOCA-FUNDO-BRANCO.jpg&quot;,
+                &quot;url&quot;: &quot;https://www.sitealeatorio.com.br&quot;,
+                &quot;logo&quot;: &quot;https://hd.sitealeatorio.com.br/institucional/LOGO-EPOCA-FUNDO-BRANCO.jpg&quot;,
                 &quot;contactPoint&quot;: [{
                 &quot;@type&quot;: &quot;ContactPoint&quot;,
                 &quot;telephone&quot;: &quot;(21) 3202-7555&quot;,
@@ -1591,43 +1591,43 @@
                 &quot;@context&quot;: &quot;http://schema.org&quot;,
                 &quot;@type&quot;: &quot;Person&quot;,
                 &quot;name&quot;: &quot;..poca Cosm..ticos e Perfumaria&quot;,
-                &quot;url&quot;: &quot;https://www.epocacosmeticos.com.br&quot;,
+                &quot;url&quot;: &quot;https://www.sitealeatorio.com.br&quot;,
                 &quot;sameAs&quot;: [
                 &quot;https://www.facebook.com/EpocaCosmeticos/&quot;,
-                &quot;https://www.instagram.com/epocacosmeticos&quot;,
-                &quot;https://twitter.com/epocacosmeticos
-                &quot;https://plus.google.com/+epocacosmeticos&quot;
+                &quot;https://www.instagram.com/sitealeatorio&quot;,
+                &quot;https://twitter.com/sitealeatorio
+                &quot;https://plus.google.com/+sitealeatorio&quot;
                 ]
                 }
 
                 &lt;/script&gt;&lt;!-- scripts --&gt;&lt;script language=&quot;javascript&quot;
-                src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/Track.js?v=1.4.924.1606&quot;
+                src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/Track.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/thickbox.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/thickbox.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/json2.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/json2.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.viewPart.CallCenterDisclaimer.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.viewPart.CallCenterDisclaimer.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.viewPart.ajaxLoader_V2.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.viewPart.ajaxLoader_V2.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.commerce.batchbuy.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.commerce.batchbuy.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.jsevents.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.jsevents.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.skuEvents.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.skuEvents.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.skuEvents.skuDataFetcher.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.skuEvents.skuDataFetcher.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/jquery.livequery.min.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/jquery.livequery.min.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/prettyPhoto/js/jquery.prettyPhoto.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/prettyPhoto/js/jquery.prettyPhoto.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/prettyPhoto/js/lean-prettyPhoto.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/prettyPhoto/js/lean-prettyPhoto.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/vtex.commerce.Compare.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/vtex.commerce.Compare.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-                &lt;script language=&quot;javascript&quot; src=&quot;https://epocacosmeticos.vteximg.com.br/Scripts/mobile/vtex.make.mobile.pager.js?v=1.4.924.1606&quot;
+                &lt;script language=&quot;javascript&quot; src=&quot;https://sitealeatorio.vteximg.com.br/Scripts/mobile/vtex.make.mobile.pager.js?v=1.4.924.1606&quot;
                 type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
                 &lt;/body&gt;
                 &lt;/html&gt;
@@ -1670,7 +1670,7 @@
                 Content-Type: text/html
                 Content-Length: 183
                 Connection: keep-alive
-                Location: https://www.epocacosmeticos.com.br/
+                Location: https://www.sitealeatorio.com.br/
                 X-Cache: Redirect from cloudfront
                 Via: 1.1 70fe71c82c36677bfb188a8ef4e59bed.cloudfront.net
                 (CloudFront)
@@ -1789,7 +1789,7 @@
                 host.
             </synopsis>
             <plugin_output>
-                URL : https://www.epocacosmeticos.com.br/
+                URL : https://www.sitealeatorio.com.br/
                 Version : unknown
                 source : Server: nginx
             </plugin_output>
@@ -1868,7 +1868,7 @@
                 to requests for non-existent URLs with HTTP code 301
                 rather than 404. The requested URL was :
 
-                http://www.epocacosmeticos.com.br/a0jLbgnKl3Xp.html
+                http://www.sitealeatorio.com.br/a0jLbgnKl3Xp.html
             </plugin_output>
         </ReportItem>
         <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
@@ -2383,7 +2383,7 @@
                 The SSL certificate will expire within 60 days, at
                 May 29 16:39:40 2018 GMT :
 
-                Subject : CN=www.epocacosmeticos.com.br
+                Subject : CN=www.sitealeatorio.com.br
                 Issuer : C=US, O=Let&apos;s Encrypt, CN=Let&apos;s Encrypt
                 Authority X3
                 Not valid before : Feb 28 16:39:40 2018 GMT
@@ -2408,7 +2408,7 @@
             <synopsis>This plugin displays the SSL certificate.</synopsis>
             <plugin_output>Subject Name:
 
-                Common Name: www.epocacosmeticos.com.br
+                Common Name: www.sitealeatorio.com.br
 
                 Issuer Name:
 
@@ -2499,7 +2499,7 @@
 
                 Extension: Subject Alternative Name (2.5.29.17)
                 Critical: 0
-                DNS: www.epocacosmeticos.com.br
+                DNS: www.sitealeatorio.com.br
 
 
                 Extension: Policies (2.5.29.32)

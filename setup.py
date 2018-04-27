@@ -10,7 +10,7 @@ except:
 
 setup(
     name='python-nessus',
-    version="0.0.1",
+    version="0.1.0",
     description='A wrapper around the tapioca-nessus for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
@@ -27,7 +27,8 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        'tapioca-nessus'
+        'tapioca-nessus',
+        'lxml'
     ],
     license="MIT",
     zip_safe=False,

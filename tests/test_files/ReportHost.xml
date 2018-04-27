@@ -1,4 +1,4 @@
-<ReportHost name="www.epocacosmeticos.com.br">
+<ReportHost name="www.sitealeatorio.com.br">
     <HostProperties>
         <tag name="HOST_END">Thu Apr 12 16:40:57 2018</tag>
         <tag name="LastUnauthenticatedResults">1523562057</tag>
@@ -127,7 +127,7 @@
             certificate
             chain sent by the remote host :
 
-            |-Subject : CN=www.epocacosmeticos.com.br
+            |-Subject : CN=www.sitealeatorio.com.br
             |-Not After : May 29 16:39:40 2018 GMT
         </plugin_output>
     </ReportItem>
@@ -168,7 +168,7 @@
             the remote
             host using the following URL :
 
-            https://www.epocacosmeticos.com.br/crossdomain.xml
+            https://www.sitealeatorio.com.br/crossdomain.xml
         </plugin_output>
     </ReportItem>
     <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
@@ -230,9 +230,9 @@
         <xref>OSVDB:238</xref>
         <plugin_output>Contents of robots.txt :
 
-            Sitemap: https://www.epocacosmeticos.com.br/sitemap.xml
+            Sitemap: https://www.sitealeatorio.com.br/sitemap.xml
             Sitemap:
-            https://www.epocacosmeticos.com.br/XMLData/sitemap_images.xml
+            https://www.sitealeatorio.com.br/XMLData/sitemap_images.xml
 
             # For..a visita....o.
             User-agent: *
@@ -242,12 +242,12 @@
             # Disallow all crawlers access to certain pages.
             User-agent: *
             Disallow:
-            http://hd.epocacosmeticos.com.br/2015/Campanha-Benetton/Conheca-Veneza/regulamento/regulamento-concurso-benetton.pdf
+            http://hd.sitealeatorio.com.br/2015/Campanha-Benetton/Conheca-Veneza/regulamento/regulamento-concurso-benetton.pdf
             Disallow:
-            http://hd.epocacosmeticos.com.br/2015/magazineluiza/condominio/imagens-hotsite-v1/magazine-luiza-concurso-regulamento-fase2.pdf
+            http://hd.sitealeatorio.com.br/2015/magazineluiza/condominio/imagens-hotsite-v1/magazine-luiza-concurso-regulamento-fase2.pdf
             Disallow:
-            http://hd.epocacosmeticos.com.br/contrato-epoca-cosmeticos-comercio-eletronico.pdf
-            Disallow:http://epocacosmeticos.vtexcommercestable.com.br/checkout/cart/add?sku=0&amp;qty=1&amp;sc=1
+            http://hd.sitealeatorio.com.br/contrato-aleatorio-comercio-eletronico.pdf
+            Disallow:http://sitealeatorio.vtexcommercestable.com.br/checkout/cart/add?sku=0&amp;qty=1&amp;sc=1
             Disallow: /Site/Servicos.aspx
             Disallow: /Control/
             Disallow: /Site/TagsMaisPopulares.aspx
