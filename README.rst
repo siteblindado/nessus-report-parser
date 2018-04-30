@@ -1,6 +1,15 @@
-Python Nessus
-=============
+Nessus Report Parser
+====================
 
-Python Nessus transforms Nessus REST API results into Plain Python Objects for easier processing.
+Nessus Report Parser transforms a nessus xml report file into a Plain Python object
 
-The objects contain the actions
+The object contains sub objects, mirroring the XML node hierarchy, parsing date string and integer values and attributes to their appropriate Python Datastructures.
+
+Usage
+-----
+
+::
+
+    from nessus import parse_nessus_file, parse_nessus_xml
+    parse_nessus_file('path/to/nessus/file.nessus')
+

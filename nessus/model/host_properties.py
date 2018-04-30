@@ -8,6 +8,9 @@ class HostProperties:
         assert isinstance(properties, dict)
         self.__dict__.update(properties)
 
+    def __repr__(self):
+        return str(self.__dict__)
+
     @classmethod
     def from_etree(cls, elem):
         assert isinstance(elem, etree._Element)

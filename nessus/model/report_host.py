@@ -11,6 +11,9 @@ class ReportHost(UserList):
         assert isinstance(host_properties, dict)
         self.__dict__.update(host_properties)
 
+    def __repr__(self):
+        return str(self.__dict__)
+
     @staticmethod
     def from_etree(elem):
         assert isinstance(elem, etree._Element)

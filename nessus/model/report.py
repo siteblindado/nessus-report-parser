@@ -8,6 +8,9 @@ class Report:
         assert isinstance(properties, dict)
         self.__dict__.update(properties)
 
+    def __repr__(self):
+        return str(self.__dict__)
+
     @staticmethod
     def from_etree(elem):
         assert isinstance(elem, etree._Element)

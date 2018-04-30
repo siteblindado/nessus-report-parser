@@ -10,13 +10,13 @@ except:
 
 setup(
     name='python-nessus',
-    version="0.1.0",
+    version="0.2.0",
     description='A wrapper around the tapioca-nessus for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
     author="Flávio Cardoso Ferreira Pontes",
     author_email="flavio.pontes@siteblindado.com.br",
-    url='https://github.com/siteblindado/python-nessus',
+    url='https://github.com/siteblindado/nessus-report-parser',
     packages=[
         'nessus',
     ],

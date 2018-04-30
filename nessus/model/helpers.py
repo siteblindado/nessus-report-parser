@@ -5,6 +5,11 @@ from datetime import datetime
 from lxml import etree
 
 
+def trim_encoding_declaration(xml):
+    lines = list(map(str.strip, xml.splitlines()))
+    return '\n'.join(lines[1:]) if '<?xml' in lines[0] else '\n'.join(lines)
+
+
 def process_nested_text_element(root, path):
     elem = root
     for path_elem in path.split('.'):

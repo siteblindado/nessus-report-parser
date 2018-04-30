@@ -6,6 +6,9 @@ from nessus.model.family_item import FamilyItem
 
 
 class FamilySelection(UserList):
+    def __repr__(self):
+        return str(self.data)
+
     @staticmethod
     def from_etree(elem):
         assert isinstance(elem, etree._Element)
