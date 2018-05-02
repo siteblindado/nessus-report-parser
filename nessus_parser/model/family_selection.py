@@ -2,7 +2,7 @@ from collections import UserList
 
 from lxml import etree
 
-from nessus.model.family_item import FamilyItem
+from .family_item import FamilyItem
 
 
 class FamilySelection(UserList):

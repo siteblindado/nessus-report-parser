@@ -1,6 +1,6 @@
 from lxml import etree
 
-from nessus.model.report_host import ReportHost
+from .report_host import ReportHost
 
 
 class Report:

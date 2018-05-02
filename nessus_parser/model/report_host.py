@@ -2,7 +2,7 @@ from collections import UserList
 
 from lxml import etree
 
-from nessus.model.report_item import ReportItem
+from .report_item import ReportItem
 
 
 class ReportHost(UserList):

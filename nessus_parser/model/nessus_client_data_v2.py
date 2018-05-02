@@ -1,6 +1,6 @@
 from lxml import etree
 
-from nessus.model.report import Report
+from .report import Report
 
 
 class NessusClientData:

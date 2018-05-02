@@ -2,8 +2,14 @@ from io import StringIO
 
 from lxml import etree
 
-from nessus.model.nessus_client_data_v2 import NessusClientData
+from .model.nessus_client_data_v2 import NessusClientData
 from .model.helpers import trim_encoding_declaration
+from .model.family_item import FamilyItem
+from .model.family_selection import FamilySelection
+from .model.host_properties import HostProperties
+from .model.report import Report
+from .model.report_host import ReportHost
+from .model.report_item import ReportItem
 
 
 def parse_nessus_file(xml_file):
