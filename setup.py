@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 try:
-    long_description = open('README.rst').read()
+    long_description = open('README.md').read()
 except:
     long_description = ''
 
@@ -20,7 +20,7 @@ setup(
     packages=['nessus_parser', ],
     package_dir={'nessus_parser': 'nessus_parser'},
     package_data={
-        '': ['LICENSE.txt', 'README.rst']
+        '': ['LICENSE.txt', 'README.md']
     },
     include_package_data=True,
     install_requires=[
