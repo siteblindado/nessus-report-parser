@@ -9,8 +9,8 @@ except:
     long_description = ''
 
 setup(
-    name='python-nessus',
-    version="0.2.0",
+    name='nessus-report-parser',
+    version="0.2.1",
     description='A wrapper around the tapioca-nessus for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
