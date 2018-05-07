@@ -1,5 +1,5 @@
 from unittest import TestCase
-from nessus_parser import parse_nessus_file, parse_nessus_xml, NessusClientData
+from nessus_report_parser import parse_nessus_file, parse_nessus_xml, NessusClientData
 
 
 class TestNessusFile(TestCase):

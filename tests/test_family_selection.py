@@ -2,7 +2,7 @@ import unittest
 
 from lxml import etree
 
-from nessus_parser import FamilySelection, FamilyItem
+from nessus_report_parser import FamilySelection, FamilyItem
 
 
 class TestFamilySelection(unittest.TestCase):

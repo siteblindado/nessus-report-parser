@@ -10,15 +10,15 @@ except:
 
 setup(
     name='nessus_report_parser',
-    version="0.2.4",
+    version="0.2.5",
     description='A wrapper around the tapioca-nessus_report_parser for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
     author="Flávio Cardoso Ferreira Pontes",
     author_email="flavio.pontes@siteblindado.com.br",
-    url='https://github.com/siteblindado/nessus_report_parser-report-nessus_parser',
-    packages=['nessus_parser', ],
-    package_dir={'nessus_parser': 'nessus_parser'},
+    url='https://github.com/siteblindado/nessus_report_parser-report-nessus_report_parser',
+    packages=find_packages(exclude='tests'),
+    package_dir={'nessus_report_parser': 'nessus_report_parser'},
     package_data={
         '': ['LICENSE.txt', 'README.md']
     },

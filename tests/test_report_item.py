@@ -3,7 +3,7 @@ from datetime import date
 
 from lxml import etree
 
-from nessus_parser import ReportItem
+from nessus_report_parser import ReportItem
 
 
 class TestReportItem(unittest.TestCase):

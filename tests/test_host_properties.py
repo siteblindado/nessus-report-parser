@@ -2,7 +2,7 @@ import unittest
 
 from lxml import etree
 
-from nessus_parser import HostProperties
+from nessus_report_parser import HostProperties
 
 
 class TestHostProperties(unittest.TestCase):

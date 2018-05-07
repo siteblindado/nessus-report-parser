@@ -3,8 +3,8 @@ from datetime import date
 
 from lxml import etree
 
-from nessus_parser import NessusClientData
-from nessus_parser import Report
+from nessus_report_parser import NessusClientData
+from nessus_report_parser import Report
 
 
 class TestNessusFile(unittest.TestCase):
