@@ -23,6 +23,7 @@ class ReportItem:
             'plugin_id': elem.attrib.get('pluginID'),
             'plugin_name': elem.attrib.get('pluginName'),
             'plugin_family': elem.attrib.get('pluginFamily'),
+            'agent': process_text_element(elem.find('agent')),
             'risk_factor': process_text_element(elem.find('risk_factor')),
             'synopsis': process_text_element(elem.find('synopsis')),
             'description': process_text_element(elem.find('description')),
@@ -36,8 +37,8 @@ class ReportItem:
             'plugin_publication_date': process_date_element(elem.find('plugin_publication_date')),
             'patch_publication_date': process_date_element(elem.find('patch_publication_date')),
             'vulnerability_publication_date': process_date_element(elem.find('vuln_publication_date')),
-            'exploitability_ease': process_date_element(elem.find('exploitability_ease')),
-            'exploit_available': process_date_element(elem.find('exploit_available')),
+            'exploitability_ease': process_text_element(elem.find('exploitability_ease')),
+            'exploit_available': process_text_element(elem.find('exploit_available')),
             'exploit_framework_canvas': process_date_element(
                 elem.find('exploit_framework_canvas')),
             'exploit_framework_metasploit': process_date_element(
@@ -46,9 +47,9 @@ class ReportItem:
                 elem.find('exploit_framework_core')),
             'metasploit_name': process_date_element(elem.find('metasploit_name')),
             'canvas_package': process_date_element(elem.find('canvas_package')),
-            'cvss_vector': process_date_element(elem.find('cvss_vector')),
-            'cvss_base_score': process_date_element(elem.find('cvss_base_score')),
-            'cvss_temporal_score': process_date_element(
+            'cvss_vector': process_text_element(elem.find('cvss_vector')),
+            'cvss_base_score': process_text_element(elem.find('cvss_base_score')),
+            'cvss_temporal_score': process_text_element(
                 elem.find('cvss_temporal_score')),
             'plugin_type': process_text_element(elem.find('plugin_type')),
             'plugin_version': process_text_element(elem.find('plugin_type')),

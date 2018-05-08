@@ -40,6 +40,7 @@ class TestReportItem(unittest.TestCase):
                ' duration : 605 sec</plugin_output></ReportItem>'
 
         expected_dict = {
+            'agent': 'all',
             'bid': None,
             'canvas_package': None,
             'cve': None,
