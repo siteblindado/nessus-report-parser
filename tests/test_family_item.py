@@ -18,3 +18,12 @@ class TestFamilyItem(unittest.TestCase):
         self.assertEqual(expected_dict,
                          FamilyItem.from_etree(etree.XML(node)).__dict__
                          )
+
+    def test_family_item_repr(self):
+        item = FamilyItem({'family_name': 'Família Dinossauro',
+                           'status': 'Cancelado!'})
+        expected = "{'family_name': 'Família Dinossauro', 'status': 'Cancelado!'}"
+        self.assertEqual(expected, repr(item))
+
+    def test_create_invalid_family_item(self):
+        self.assertRaises(AssertionError, FamilyItem, {'family': 'error'})

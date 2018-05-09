@@ -6,6 +6,7 @@ from .helpers import process_text_element
 class FamilyItem:
     def __init__(self, properties):
         assert isinstance(properties, dict)
+        assert all(key in properties.keys() for key in ['family_name', 'status'])
         self.__dict__.update(properties)
 
     def __eq__(self, other):

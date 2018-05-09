@@ -40,3 +40,11 @@ class TestFamilySelection(unittest.TestCase):
         self.assertEqual([FamilyItem(doc) for doc in expected_seq],
                          FamilySelection.from_etree(etree.XML(node))
                          )
+
+    def test_family_selection(self):
+        f = FamilySelection([FamilyItem({'family_name': 'f1', 'status': 's1'}),
+                             FamilyItem({'family_name': 'f2', 'status': 's2'})])
+        expected = "[{'family_name': 'f1', 'status': 's1'}," \
+                   " {'family_name': 'f2', 'status': 's2'}]"
+
+        self.assertEqual(expected, str(f))
