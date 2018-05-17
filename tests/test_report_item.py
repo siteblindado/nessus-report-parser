@@ -78,4 +78,4 @@ class TestReportItem(unittest.TestCase):
         }
 
         self.assertEqual(expected_dict,
-                         ReportItem.from_etree(etree.XML(node)).__dict__)
+                         ReportItem.from_etree(etree.XML(node)))

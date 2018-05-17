@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<NessusClientData_v2>
+    <Policy>
+        <policyName>Basic Network Scan</policyName>
+        <Preferences>
+            <ServerPreferences>
+                <preference>
+                    <name>plugin_set</name>
+                    <value>84640;82726;55279;30274;67226;90803;69374;</value>
+                </preference>
+            </ServerPreferences>
+            <PluginsPreferences>
+                <item>
+                    <pluginName>Database settings</pluginName>
+                    <pluginId>33815</pluginId>
+                    <fullName>Database settings[radio]:SQL Server auth type:
+                    </fullName>
+                    <preferenceName>SQL Server auth type:</preferenceName>
+                    <preferenceType>radio</preferenceType>
+                    <preferenceValues>Windows;SQL</preferenceValues>
+                    <selectedValue>Windows;SQL</selectedValue>
+                </item>
+                <item>
+                    <pluginName>Dell Force10 FTOS Compliance Checks</pluginName>
+                    <pluginId>72461</pluginId>
+                    <fullName>Dell Force10 FTOS Compliance Checks[file]:Policy file #2 :</fullName>
+                    <preferenceName>Policy file #2 :</preferenceName>
+                    <preferenceType>file</preferenceType>
+                    <preferenceValues></preferenceValues>
+                    <selectedValue></selectedValue>
+                </item>
+                <item>
+                    <pluginName>Patch Management: Dell KACE K1000 Settings
+                    </pluginName>
+                    <pluginId>76866</pluginId>
+                    <fullName>Patch Management: Dell KACE K1000 Settings[entry]:K1000 Address :</fullName>
+                    <preferenceName>K1000 Address :</preferenceName>
+                    <preferenceType>entry</preferenceType>
+                    <preferenceValues></preferenceValues>
+                    <selectedValue></selectedValue>
+                </item>
+            </PluginsPreferences>
+        </Preferences>
+        <FamilySelection>
+            <FamilyItem>
+                <FamilyName>MacOS X Local Security Checks</FamilyName>
+                <Status>enabled</Status>
+            </FamilyItem>
+            <FamilyItem>
+                <FamilyName>Incident Response</FamilyName>
+                <Status>enabled</Status>
+            </FamilyItem>
+        </FamilySelection>
+        <IndividualPluginSelection>
+            <PluginItem>
+                <PluginId>34220</PluginId>
+                <PluginName>Netstat Portscanner (WMI)</PluginName>
+                <Family>Port scanners</Family>
+                <Status>enabled</Status>
+            </PluginItem>
+            <PluginItem>
+                <PluginId>14274</PluginId>
+                <PluginName>Nessus SNMP Scanner</PluginName>
+                <Family>Port scanners</Family>
+                <Status>enabled</Status>
+            </PluginItem>
+        </IndividualPluginSelection>
+    </Policy>
+    <Report name="Epoca">
+        <ReportHost name="www.sitealeatorio.com.br">
+            <HostProperties>
+                <tag name="HOST_END">Thu Apr 12 16:40:57 2018</tag>
+                <tag name="LastUnauthenticatedResults">1523562057</tag>
+                <tag name="Credentialed_Scan">false</tag>
+                <tag name="policy-used">Basic Network Scan</tag>
+                <tag name="patch-summary-total-cves">9</tag>
+                <tag name="cpe">cpe:/o:linux:linux_kernel</tag>
+                <tag name="os">linux</tag>
+                <tag name="cpe-2">cpe:/o:linux:linux_kernel:2.6</tag>
+                <tag name="cpe-1">cpe:/o:linux:linux_kernel:2.4</tag>
+                <tag name="cpe-0">cpe:/o:linux:linux_kernel:2.2</tag>
+                <tag name="operating-system">Linux Kernel 2.2
+                    Linux Kernel 2.4
+                    Linux Kernel 2.6
+                </tag>
+                <tag name="traceroute-hop-21">52.84.177.75</tag>
+                <tag name="traceroute-hop-20">176.32.124.35</tag>
+                <tag name="traceroute-hop-19">54.240.244.42</tag>
+                <tag name="traceroute-hop-18">186.234.253.18</tag>
+                <tag name="traceroute-hop-17">186.234.253.18</tag>
+                <tag name="traceroute-hop-16">187.16.218.79</tag>
+                <tag name="traceroute-hop-15">200.147.29.146</tag>
+                <tag name="traceroute-hop-14">200.147.29.2</tag>
+                <tag name="traceroute-hop-13">200.225.89.69</tag>
+                <tag name="traceroute-hop-12">186.234.253.5</tag>
+                <tag name="traceroute-hop-11">10.21.240.2</tag>
+                <tag name="traceroute-hop-10">10.255.13.17</tag>
+                <tag name="traceroute-hop-9">200.182.182.14</tag>
+                <tag name="traceroute-hop-8">200.182.182.13</tag>
+                <tag name="traceroute-hop-7">200.244.214.172</tag>
+                <tag name="traceroute-hop-6">200.230.251.2</tag>
+                <tag name="traceroute-hop-5">200.230.252.158</tag>
+                <tag name="traceroute-hop-4">200.244.216.91</tag>
+                <tag name="traceroute-hop-3">189.23.49.173</tag>
+                <tag name="traceroute-hop-2">10.168.0.6</tag>
+                <tag name="traceroute-hop-1">10.168.1.5</tag>
+                <tag name="traceroute-hop-0">10.168.68.1</tag>
+                <tag name="host-ip">52.84.177.75</tag>
+                <tag name="host-fqdn">
+                    server-52-84-177-75.gru50.r.cloudfront.net
+                </tag>
+                <tag name="HOST_START">Thu Apr 12 16:30:44 2018</tag>
+            </HostProperties>
+            <ReportItem port="0" svc_name="general" protocol="tcp" severity="0"
+                        pluginID="19506" pluginName="Nessus Scan Information"
+                        pluginFamily="Settings">
+                <agent>all</agent>
+                <description>This plugin displays, for each tested host,
+                    information about the scan itself :
+
+                    - The version of the plugin set.
+                    - The type of scanner (Nessus or Nessus Home).
+                    - The version of the Nessus Engine.
+                    - The port scanner(s) used.
+                    - The port range scanned.
+                    - Whether credentialed or third-party patch management
+                    checks are possible.
+                    - The date of the scan.
+                    - The duration of the scan.
+                    - The number of hosts scanned in parallel.
+                    - The number of checks done in parallel.
+                </description>
+                <fname>scan_info.nasl</fname>
+                <plugin_modification_date>2017/10/26</plugin_modification_date>
+                <plugin_name>Nessus Scan Information</plugin_name>
+                <plugin_publication_date>2005/08/26</plugin_publication_date>
+                <plugin_type>summary</plugin_type>
+                <risk_factor>None</risk_factor>
+                <script_version>$Revision: 1.90 $</script_version>
+                <solution>n/a</solution>
+                <synopsis>This plugin displays information about the Nessus scan.</synopsis>
+                <plugin_output>Information about this scan :
+
+                    Nessus version : 7.0.3
+                    Plugin feed version : 201804120615
+                    Scanner edition used : Nessus
+                    Scan type : Normal
+                    Scan policy used : Basic Network Scan
+                    Scanner IP : 10.168.69.130
+                    Port scanner(s) : nessus_syn_scanner
+                    Port range : default
+                    Thorough tests : no
+                    Experimental tests : no
+                    Paranoia level : 1
+                    Report verbosity : 1
+                    Safe checks : yes
+                    Optimize the test : yes
+                    Credentialed checks : no
+                    Patch management checks : None
+                    CGI scanning : disabled
+                    Web application tests : disabled
+                    Max hosts : 30
+                    Max checks : 4
+                    Recv timeout : 5
+                    Backports : None
+                    Allow post-scan editing: Yes
+                    Scan Start Date : 2018/4/12 16:30 -03
+                    Scan duration : 605 sec
+                </plugin_output>
+            </ReportItem>
+            <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
+                        severity="0" pluginID="83298"
+                        pluginName="SSL Certificate Chain Contains Certificates Expiring Soon"
+                        pluginFamily="Misc.">
+                <description>The remote host has an SSL certificate chain with
+                    one or more SSL certificates that are going to expire soon.
+                    Failure to renew these certificates before the expiration
+                    date may result in denial of service for users.
+                </description>
+                <fname>ssl_future_expiry_certs.nasl</fname>
+                <plugin_modification_date>2015/05/08</plugin_modification_date>
+                <plugin_name>SSL Certificate Chain Contains Certificates
+                    Expiring Soon
+                </plugin_name>
+                <plugin_publication_date>2015/05/08</plugin_publication_date>
+                <plugin_type>remote</plugin_type>
+                <risk_factor>None</risk_factor>
+                <script_version>$Revision: 1.1 $</script_version>
+                <solution>Renew any soon to expire SSL certificates.</solution>
+                <synopsis>The remote host has an SSL certificate chain with one
+                    or more certificates that are going to expire soon.
+                </synopsis>
+                <plugin_output>
+                    The following soon to expire certificate was part of the
+                    certificate
+                    chain sent by the remote host :
+
+                    |-Subject : CN=www.sitealeatorio.com.br
+                    |-Not After : May 29 16:39:40 2018 GMT
+                </plugin_output>
+            </ReportItem>
+            <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
+                        severity="0" pluginID="32318"
+                        pluginName="Web Site Cross-Domain Policy File Detection"
+                        pluginFamily="CGI abuses">
+                <description>The remote web server contains a cross-domain
+                    policy file. This is a simple XML file used by Adobe&apos;s
+                    Flash Player to allow access to data that resides outside
+                    the exact web domain from which a Flash movie file
+                    originated.
+                </description>
+                <exploited_by_nessus>true</exploited_by_nessus>
+                <fname>crossdomain.nasl</fname>
+                <plugin_modification_date>2017/05/16</plugin_modification_date>
+                <plugin_name>Web Site Cross-Domain Policy File Detection
+                </plugin_name>
+                <plugin_publication_date>2008/05/15</plugin_publication_date>
+                <plugin_type>remote</plugin_type>
+                <risk_factor>None</risk_factor>
+                <script_version>$Revision: 1.14 $</script_version>
+                <see_also>http://www.nessus.org/u?577e066f
+                    http://kb2.adobe.com/cps/142/tn_14213.html
+                    http://www.nessus.org/u?74a6a9a5
+                    http://www.nessus.org/u?50ee6db2
+                </see_also>
+                <solution>Review the contents of the policy file carefully.
+                    Improper policies, especially an unrestricted one with just
+                    &apos;*&apos;, could allow for cross- site request forgery
+                    and cross-site scripting attacks against the web server.
+                </solution>
+                <synopsis>The remote web server contains a &apos;crossdomain.xml&apos;
+                    file.
+                </synopsis>
+                <plugin_output>
+                    Nessus was able to obtain a cross-domain policy file from
+                    the remote
+                    host using the following URL :
+
+                    https://www.sitealeatorio.com.br/crossdomain.xml
+                </plugin_output>
+            </ReportItem>
+            <ReportItem port="443" svc_name="http_proxy" protocol="tcp"
+                        severity="0" pluginID="84502"
+                        pluginName="HSTS Missing From HTTPS Server"
+                        pluginFamily="Web Servers">
+                <description>The remote HTTPS server is not enforcing HTTP
+                    Strict Transport Security (HSTS). The lack of HSTS allows
+                    downgrade attacks, SSL-stripping man-in-the-middle attacks,
+                    and weakens cookie-hijacking protections.
+                </description>
+                <fname>hsts_missing_on_https_server.nasl</fname>
+                <plugin_modification_date>2015/07/02</plugin_modification_date>
+                <plugin_name>HSTS Missing From HTTPS Server</plugin_name>
+                <plugin_publication_date>2015/07/02</plugin_publication_date>
+                <plugin_type>remote</plugin_type>
+                <risk_factor>None</risk_factor>
+                <script_version>$Revision: 1.1 $</script_version>
+                <see_also>https://tools.ietf.org/html/rfc6797</see_also>
+                <solution>Configure the remote web server to use HSTS.
+                </solution>
+                <synopsis>The remote web server is not enforcing HSTS.
+                </synopsis>
+                <plugin_output>
+                    The remote HTTPS server does not send the HTTP
+                    &quot;Strict-Transport-Security&quot; header.
+                </plugin_output>
+            </ReportItem>
+        </ReportHost>
+    </Report>
+</NessusClientData_v2>

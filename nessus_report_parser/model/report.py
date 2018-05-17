@@ -1,15 +1,14 @@
+from collections import UserDict
+
 from lxml import etree
 
 from .report_host import ReportHost
 
 
-class Report:
+class Report(UserDict):
     def __init__(self, properties):
         assert isinstance(properties, dict)
-        self.__dict__.update(properties)
-
-    def __repr__(self):
-        return str(self.__dict__)
+        self.data = properties
 
     @staticmethod
     def from_etree(elem):

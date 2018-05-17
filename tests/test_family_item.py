@@ -16,8 +16,7 @@ class TestFamilyItem(unittest.TestCase):
                          'status': 'enabled'}
 
         self.assertEqual(expected_dict,
-                         FamilyItem.from_etree(etree.XML(node)).__dict__
-                         )
+                         FamilyItem.from_etree(etree.XML(node)))
 
     def test_family_item_repr(self):
         item = FamilyItem({'family_name': 'Família Dinossauro',

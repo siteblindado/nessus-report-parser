@@ -1,3 +1,4 @@
+from collections import UserDict
 from datetime import date
 
 from lxml import etree
@@ -5,10 +6,10 @@ from lxml import etree
 from .helpers import process_text_element, process_date_element
 
 
-class ReportItem:
+class ReportItem(UserDict):
     def __init__(self, properties):
         assert isinstance(properties, dict)
-        self.__dict__.update(properties)
+        self.data = properties
 
     @classmethod
     def from_etree(cls, elem):
@@ -39,14 +40,14 @@ class ReportItem:
             'vulnerability_publication_date': process_date_element(elem.find('vuln_publication_date')),
             'exploitability_ease': process_text_element(elem.find('exploitability_ease')),
             'exploit_available': process_text_element(elem.find('exploit_available')),
-            'exploit_framework_canvas': process_date_element(
+            'exploit_framework_canvas': process_text_element(
                 elem.find('exploit_framework_canvas')),
-            'exploit_framework_metasploit': process_date_element(
+            'exploit_framework_metasploit': process_text_element(
                 elem.find('exploit_framework_metasploit')),
-            'exploit_framework_core': process_date_element(
+            'exploit_framework_core': process_text_element(
                 elem.find('exploit_framework_core')),
-            'metasploit_name': process_date_element(elem.find('metasploit_name')),
-            'canvas_package': process_date_element(elem.find('canvas_package')),
+            'metasploit_name': process_text_element(elem.find('metasploit_name')),
+            'canvas_package': process_text_element(elem.find('canvas_package')),
             'cvss_vector': process_text_element(elem.find('cvss_vector')),
             'cvss_base_score': process_text_element(elem.find('cvss_base_score')),
             'cvss_temporal_score': process_text_element(

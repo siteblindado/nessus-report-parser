@@ -1,21 +1,20 @@
-from collections import UserList
+from collections import UserDict
 
 from lxml import etree
 
 from .report_item import ReportItem
 
 
-class ReportHost(UserList):
+class ReportHost(UserDict):
     def __init__(self, elements, host_properties):
-        super(ReportHost, self).__init__(elements)
-        assert isinstance(host_properties, dict)
-        self.__dict__.update(host_properties)
-
-    def __repr__(self):
-        return str(self.__dict__)
+        super(ReportHost, self).__init__(host_properties)
+        assert isinstance(elements, list)
+        self['report_items'] = elements
 
     @staticmethod
     def from_etree(elem):
+        if elem is None:
+            return elem
         assert isinstance(elem, etree._Element)
         assert elem.tag == 'ReportHost'
 

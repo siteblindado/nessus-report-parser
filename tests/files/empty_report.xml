@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<NessusClientData_v2>
+    <Policy>
+        <policyName>Basic Network Scan</policyName>
+        <Preferences>
+            <ServerPreferences>
+                <preference>
+                    <name>plugin_set</name>
+                    <value>84640;82726;55279;30274;67226;90803;69374;</value>
+                </preference>
+            </ServerPreferences>
+            <PluginsPreferences>
+                <item>
+                    <pluginName>Database settings</pluginName>
+                    <pluginId>33815</pluginId>
+                    <fullName>Database settings[radio]:SQL Server auth type:
+                    </fullName>
+                    <preferenceName>SQL Server auth type:</preferenceName>
+                    <preferenceType>radio</preferenceType>
+                    <preferenceValues>Windows;SQL</preferenceValues>
+                    <selectedValue>Windows;SQL</selectedValue>
+                </item>
+                <item>
+                    <pluginName>Dell Force10 FTOS Compliance Checks</pluginName>
+                    <pluginId>72461</pluginId>
+                    <fullName>Dell Force10 FTOS Compliance Checks[file]:Policy file #2 :</fullName>
+                    <preferenceName>Policy file #2 :</preferenceName>
+                    <preferenceType>file</preferenceType>
+                    <preferenceValues></preferenceValues>
+                    <selectedValue></selectedValue>
+                </item>
+                <item>
+                    <pluginName>Patch Management: Dell KACE K1000 Settings
+                    </pluginName>
+                    <pluginId>76866</pluginId>
+                    <fullName>Patch Management: Dell KACE K1000 Settings[entry]:K1000 Address :</fullName>
+                    <preferenceName>K1000 Address :</preferenceName>
+                    <preferenceType>entry</preferenceType>
+                    <preferenceValues></preferenceValues>
+                    <selectedValue></selectedValue>
+                </item>
+            </PluginsPreferences>
+        </Preferences>
+        <FamilySelection>
+            <FamilyItem>
+                <FamilyName>MacOS X Local Security Checks</FamilyName>
+                <Status>enabled</Status>
+            </FamilyItem>
+            <FamilyItem>
+                <FamilyName>Incident Response</FamilyName>
+                <Status>enabled</Status>
+            </FamilyItem>
+        </FamilySelection>
+        <IndividualPluginSelection>
+            <PluginItem>
+                <PluginId>34220</PluginId>
+                <PluginName>Netstat Portscanner (WMI)</PluginName>
+                <Family>Port scanners</Family>
+                <Status>enabled</Status>
+            </PluginItem>
+            <PluginItem>
+                <PluginId>14274</PluginId>
+                <PluginName>Nessus SNMP Scanner</PluginName>
+                <Family>Port scanners</Family>
+                <Status>enabled</Status>
+            </PluginItem>
+        </IndividualPluginSelection>
+    </Policy>
+    <Report name="Aleatorio">
+    </Report>
+</NessusClientData_v2>

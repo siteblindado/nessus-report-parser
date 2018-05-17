@@ -14,3 +14,8 @@ class TestNessusXml(TestCase):
         nessus_xml = open('tests/files/Epoca_ke6t29.nessus.xml').read()
 
         self.assertIsInstance(parse_nessus_xml(nessus_xml), NessusClientData)
+
+    def test_empty_report(self):
+        nessus_xml = open('tests/files/empty_report.xml').read()
+
+        self.assertIsInstance(parse_nessus_xml(nessus_xml), NessusClientData)

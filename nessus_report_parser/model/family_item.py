@@ -1,19 +1,15 @@
+from collections import UserDict
+
 from lxml import etree
 
 from .helpers import process_text_element
 
 
-class FamilyItem:
+class FamilyItem(UserDict):
     def __init__(self, properties):
         assert isinstance(properties, dict)
         assert all(key in properties.keys() for key in ['family_name', 'status'])
-        self.__dict__.update(properties)
-
-    def __eq__(self, other):
-        return self.__dict__ == other.__dict__
-
-    def __repr__(self):
-        return str(self.__dict__)
+        self.data = properties
 
     @classmethod
     def from_etree(cls, elem):

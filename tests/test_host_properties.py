@@ -22,4 +22,4 @@ class TestHostProperties(unittest.TestCase):
                          'patch-summary-total-cves': '9'}
 
         self.assertEqual(expected_dict,
-                         HostProperties.from_etree(etree.XML(node)).__dict__)
+                         HostProperties.from_etree(etree.XML(node)))

@@ -1,12 +1,14 @@
+from collections import UserDict
+
 from lxml import etree
 
 from .report import Report
 
 
-class NessusClientData:
+class NessusClientData(UserDict):
     def __init__(self, properties):
         assert isinstance(properties, dict)
-        self.__dict__.update(properties)
+        self.data = properties
 
     @staticmethod
     def from_etree(elem):
