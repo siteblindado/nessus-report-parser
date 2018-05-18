@@ -44,7 +44,7 @@ class TestFamilySelection(unittest.TestCase):
     def test_family_selection(self):
         f = FamilySelection([FamilyItem({'family_name': 'f1', 'status': 's1'}),
                              FamilyItem({'family_name': 'f2', 'status': 's2'})])
-        expected = "[{'family_name': 'f1', 'status': 's1'}," \
-                   " {'family_name': 'f2', 'status': 's2'}]"
+        expected = [{'family_name': 'f1', 'status': 's1'},
+                    {'family_name': 'f2', 'status': 's2'}]
 
-        self.assertEqual(expected, str(f))
+        self.assertEqual(expected, f.data)

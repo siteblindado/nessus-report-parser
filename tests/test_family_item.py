@@ -21,8 +21,8 @@ class TestFamilyItem(unittest.TestCase):
     def test_family_item_repr(self):
         item = FamilyItem({'family_name': 'Família Dinossauro',
                            'status': 'Cancelado!'})
-        expected = "{'family_name': 'Família Dinossauro', 'status': 'Cancelado!'}"
-        self.assertEqual(expected, repr(item))
+        expected = {'family_name': 'Família Dinossauro', 'status': 'Cancelado!'}
+        self.assertEqual(expected, item.data)
 
     def test_create_invalid_family_item(self):
         self.assertRaises(AssertionError, FamilyItem, {'family': 'error'})
