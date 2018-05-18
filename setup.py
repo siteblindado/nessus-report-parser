@@ -10,7 +10,7 @@ except:
 
 setup(
     name='nessus_report_parser',
-    version="0.2.7",
+    version="0.2.8",
     description='A wrapper around the tapioca-nessus_report_parser for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
@@ -25,7 +25,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'tapioca-nessus',
-        'lxml'
+        'lxml>=4.2.1'
     ],
     license="MIT",
     zip_safe=False,

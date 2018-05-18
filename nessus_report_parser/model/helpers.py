@@ -8,7 +8,8 @@ from lxml import etree
 def trim_encoding_declaration(xml: str) -> str:
     lines = list(map(str.strip, xml.splitlines()))
     if len(lines) == 1:
-        return lines[0][lines[0].find('?>')+2:]
+        trim_index = lines[0].find('?>')+2
+        return lines[0][trim_index] if trim_index > 1 else lines[0]
     return '\n'.join(lines[1:]) if '<?xml' in lines[0] else '\n'.join(lines)
 
 

@@ -32,6 +32,13 @@ class TestTrimEncodingDeclaration(TestCase):
         self.assertEqual(expected_xml,
                          trim_encoding_declaration(xml))
 
+    def test_valid_xml_without_declaration(self):
+        xml = '<Root><Name>This is Root!</Name></Root>'
+        expected_xml = '<Root><Name>This is Root!</Name></Root>'
+
+        self.assertEqual(expected_xml,
+                         trim_encoding_declaration(xml))
+
 
 class TestProcessTextElement(TestCase):
     def test_none(self):
