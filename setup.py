@@ -10,7 +10,7 @@ except:
 
 setup(
     name='nessus_report_parser',
-    version="0.2.8",
+    version="0.2.8.1",
     description='A wrapper around the tapioca-nessus_report_parser for translating the'
                 ' Nessus API documents into Python Objects',
     long_description=long_description,
